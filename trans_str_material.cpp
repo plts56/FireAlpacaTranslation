@@ -17,6 +17,10 @@ QString Trans_StrMaterial( int idx )
 
   if (man->TranslateJapanese())
   {
+    if (idx == 0) return QObject::tr("コマの分割");
+    if (idx == 1) return QObject::tr("縦方向の分割数");
+    if (idx == 2) return QObject::tr("横方向の分割数");
+
     if (idx == 1300) return QObject::tr("コマのプロパティ");
     if (idx == 1301) return QObject::tr("線の幅");
     if (idx == 1302) return QObject::tr("線の色");
@@ -63,6 +67,10 @@ QString Trans_StrMaterial( int idx )
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////
+  if (idx == 0) return QObject::tr("Divide Comic Panel");
+  if (idx == 1) return QObject::tr("Number of vertical divisions");
+  if (idx == 2) return QObject::tr("Number of horizontal divisions");
+
   if (idx == 1300) return QObject::tr("Comic Panel Property");
   if (idx == 1301) return QObject::tr("Line Width");
   if (idx == 1302) return QObject::tr("Border Color");
