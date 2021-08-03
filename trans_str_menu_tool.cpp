@@ -212,6 +212,10 @@ QString Trans_StrMenuTool( int idx )
   {
   }
 
+  if (man->TranslateBengali())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Tool(&T)");
   if (idx == 1) return QObject::tr("Brush");
   if (idx == 2) return QObject::tr("Eraser");

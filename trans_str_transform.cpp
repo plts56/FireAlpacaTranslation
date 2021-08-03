@@ -179,6 +179,10 @@ QString Trans_StrTransform( int idx )
   {
   }
 
+  if (man->TranslateBengali())
+  {
+  }
+
 #if defined(__NEET_QT_MAC__)
   res.replace( "Ctrl", "command" );
 #endif

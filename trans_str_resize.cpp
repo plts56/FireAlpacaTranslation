@@ -180,6 +180,10 @@ QString Trans_StrResize( int idx )
   {
   }
 
+  if (man->TranslateBengali())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

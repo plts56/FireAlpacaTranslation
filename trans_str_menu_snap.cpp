@@ -146,6 +146,10 @@ QString Trans_StrMenuSnap( int idx )
   {
   }
 
+  if (man->TranslateBengali())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Snap(&N)");
   if (idx == 1) return QObject::tr("Off(&O)");
   if (idx == 2) return QObject::tr("Parallel(&P)");

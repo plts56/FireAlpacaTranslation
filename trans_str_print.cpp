@@ -91,6 +91,10 @@ QString Trans_StrPrint( int idx )
   {
   }
 
+  if (man->TranslateBengali())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

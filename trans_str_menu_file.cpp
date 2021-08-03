@@ -171,6 +171,10 @@ QString Trans_StrMenuFile( int idx )
   {
   }
 
+  if (man->TranslateBengali())
+  {
+  }
+
   if (idx == 0) return QObject::tr("File(&F)");
   if (idx == 1) return QObject::tr("New(&N)...");
   if (idx == 2) return QObject::tr("New via Clipboard(&V)");

@@ -113,6 +113,10 @@ QString Trans_StrChild( int idx )
   {
   }
 
+  if (man->TranslateBengali())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////
