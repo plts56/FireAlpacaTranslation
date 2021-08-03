@@ -196,6 +196,10 @@ QString Trans_StrFA( int idx )
     if (idx == 2201) return QObject::tr("Глобальные настройки"); // 「を使う」を省略
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

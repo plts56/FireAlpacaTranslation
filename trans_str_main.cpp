@@ -969,6 +969,10 @@ QString Trans_StrMain( int idx )
     if (idx == 94) return QObject::tr("Открыть \"AlpacaDouga\", сервис для создания анимации GIF, в браузере?");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

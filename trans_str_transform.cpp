@@ -175,6 +175,10 @@ QString Trans_StrTransform( int idx )
     if (idx == 13) res = QObject::tr("Связь по горизонтали");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
 #if defined(__NEET_QT_MAC__)
   res.replace( "Ctrl", "command" );
 #endif

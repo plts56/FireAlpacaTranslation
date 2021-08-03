@@ -109,6 +109,10 @@ QString Trans_StrChild( int idx )
     if (idx == 4) return QObject::tr("Слои не могут быть сохранены с этим форматом. Хотите продолжить?");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

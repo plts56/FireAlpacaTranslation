@@ -135,6 +135,10 @@ QString Trans_StrBrushBottom( int idx )
     if (idx == 9) return QObject::tr("Из файла");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

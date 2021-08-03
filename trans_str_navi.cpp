@@ -119,6 +119,10 @@ QString Trans_StrNavi( int idx )
     if (idx == 7) return QObject::tr("Размер пикселя");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

@@ -440,6 +440,10 @@ QString Trans_StrBrushEdit( int idx )
     if (idx == 39) return QObject::tr("Направление перемещения");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

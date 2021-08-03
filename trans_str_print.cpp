@@ -87,6 +87,10 @@ QString Trans_StrPrint( int idx )
     if (idx == 3) return QObject::tr("Кратность");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

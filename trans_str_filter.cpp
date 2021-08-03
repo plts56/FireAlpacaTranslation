@@ -288,6 +288,10 @@ QString Trans_StrFilter( int idx )
     if (idx == 901) return QObject::tr("Размер");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

@@ -196,6 +196,10 @@ QString Trans_StrMenuEdit( int idx )
     if (idx == 11) return QObject::tr("Размер холста(&S)..."); // Canvas Size
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
 #if defined(__NEET_QT_MAC__)
   // Mountain Lion のメニュー増殖回避
   if (idx == 0) return QObject::tr(" Edit(&E)");

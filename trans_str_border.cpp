@@ -87,6 +87,10 @@ QString Trans_StrBorder( int idx )
     if (idx == 3) return QObject::tr("На границе");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

@@ -83,6 +83,10 @@ QString Trans_Str3D( int idx )
   {
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

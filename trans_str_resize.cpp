@@ -176,6 +176,10 @@ QString Trans_StrResize( int idx )
     if (idx == 15) return QObject::tr("Текущий размер");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

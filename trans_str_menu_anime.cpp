@@ -79,6 +79,10 @@ QString Trans_StrMenuAnime( int idx )
     if (idx == 0) return QObject::tr("Анимация(&A)"); // Animation
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Animation(&A)"); // Animation
   if (idx == 15) return QObject::tr("Animation Mode(&A)");
   if (idx == 16) return QObject::tr("Select Next (Upper) Frame");

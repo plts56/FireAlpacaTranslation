@@ -87,6 +87,10 @@ QString Trans_StrReso( int idx )
     if (idx == 5) return QObject::tr("Размер изображения");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

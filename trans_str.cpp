@@ -325,6 +325,10 @@ nstring Trans_Str( neet::TMangaString ms )
     //if (ms == MS_CAP_SPOIT_ACTIVE) s = QObject::tr("+Shiftキーでアクティブレイヤー色取得");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

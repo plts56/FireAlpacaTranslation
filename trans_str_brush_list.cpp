@@ -192,6 +192,10 @@ QString Trans_StrBrushList( int idx )
     if (idx == 10) return QObject::tr("Перо (Принудительное затухание или усиление)");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

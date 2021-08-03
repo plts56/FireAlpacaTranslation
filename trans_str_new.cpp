@@ -354,6 +354,10 @@ QString Trans_StrNew( int idx )
     if (idx == 29) return QObject::tr("Белый");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

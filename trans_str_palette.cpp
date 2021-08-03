@@ -125,6 +125,10 @@ QString Trans_StrPalette( int idx )
     if (idx == 104) return QObject::tr("Текущий цвет");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

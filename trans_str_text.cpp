@@ -188,6 +188,10 @@ QString Trans_StrText( int idx )
     if (idx == 13) return QObject::tr("Вертикальный");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

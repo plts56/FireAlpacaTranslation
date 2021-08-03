@@ -144,6 +144,10 @@ QString Trans_StrMenuSelect( int idx )
     if (idx == 9) return QObject::tr("Нарисовать границы выделения(&B)..."); // Draw Selection Border
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Select(&S)");
   if (idx == 1) return QObject::tr("Add(&A)");
   if (idx == 2) return QObject::tr("Deselect(&D)");

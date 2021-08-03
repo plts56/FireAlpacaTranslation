@@ -142,6 +142,10 @@ QString Trans_StrMenuSnap( int idx )
     if (idx == 8) return QObject::tr("Сохранить привязку(&S)..."); // Save Snap
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Snap(&N)");
   if (idx == 1) return QObject::tr("Off(&O)");
   if (idx == 2) return QObject::tr("Parallel(&P)");

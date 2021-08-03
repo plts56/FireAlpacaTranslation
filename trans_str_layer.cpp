@@ -429,6 +429,10 @@ QString Trans_StrLayer( int idx )
     if (idx == 403) return QObject::tr("Цвет");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

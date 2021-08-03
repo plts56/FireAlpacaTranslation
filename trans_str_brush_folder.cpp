@@ -59,6 +59,10 @@ QString Trans_StrBrushFolder( int idx )
   {
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

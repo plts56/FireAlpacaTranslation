@@ -295,6 +295,10 @@ QString Trans_StrEnv( int idx )
     if (idx == 40) return QObject::tr("Настроить вручную");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

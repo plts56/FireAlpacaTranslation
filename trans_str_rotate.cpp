@@ -78,6 +78,10 @@ QString Trans_StrRotate( int idx )
     if (idx == 2) return QObject::tr("Градус");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

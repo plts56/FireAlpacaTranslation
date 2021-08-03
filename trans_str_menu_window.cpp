@@ -166,6 +166,10 @@ QString Trans_StrMenuWindow( int idx )
     if (idx == 11) return QObject::tr("Справка");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Window(&W)");
   if (idx == 1) return QObject::tr("Initialize(&I)...");
   if (idx == 2) return QObject::tr("Show/Hide(&S)");

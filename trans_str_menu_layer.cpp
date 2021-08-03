@@ -404,6 +404,10 @@ QString Trans_StrMenuLayer( int idx )
     if (idx == 34) return QObject::tr("Песок");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Layer(&L)");
   if (idx == 1) return QObject::tr("Add(&A)");
   if (idx == 2) return QObject::tr("Duplicate(&C)");

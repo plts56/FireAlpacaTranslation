@@ -146,6 +146,10 @@ QString Trans_StrRaster( int idx )
     if (idx == 8) return QObject::tr("Метка обрезки");
   }
 
+  if (man->TranslateHindi())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////
