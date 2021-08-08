@@ -157,6 +157,7 @@ QString Trans_StrMain( int idx )
     if (idx == 170) return QObject::tr("ドラッグごとに位置を確定");
     if (idx == 171) return QObject::tr("位置を確定");
     if (idx == 172) return QObject::tr("両端の筆圧をゼロにする");
+    if (idx == 173) return QObject::tr("1px 移動");
 
     if (idx == 180) return QObject::tr("パレットファイルの読み込み");
     if (idx == 181) return QObject::tr("パレットファイルの保存");
@@ -1122,6 +1123,7 @@ QString Trans_StrMain( int idx )
   if (idx == 170) return QObject::tr("Determine by Each Drag");
   if (idx == 171) return QObject::tr("Determine Position");
   if (idx == 172) return QObject::tr("Zero Pressure on Both Ends");
+  if (idx == 173) return QObject::tr("Move 1px");
 
   if (idx == 180) return QObject::tr("Import Palette File");
   if (idx == 181) return QObject::tr("Export Palette File");
