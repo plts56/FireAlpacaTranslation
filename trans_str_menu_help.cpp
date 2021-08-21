@@ -20,7 +20,7 @@ QString Trans_StrMenuHelp( int idx )
     if (idx == 0) return QObject::tr("設定フォルダを開く(&C)...");
     if (idx == 1) return QObject::tr("プリセットブラシを復元...");
     if (idx == 2) return QObject::tr("マルチスレッド処理による高速化");
-    if (idx == 3) return QObject::tr("ブラシ処理を独立したスレッドで行う (ベータ)");
+    if (idx == 3) return QObject::tr("ブラシ処理を独立したスレッドで行う");
     if (idx == 4) return QObject::tr("ブラシ描画時の表示更新の最適化");
     if (idx == 5) return QObject::tr("MDPファイルの高速保存");
 
@@ -83,7 +83,7 @@ QString Trans_StrMenuHelp( int idx )
   if (idx == 0) return QObject::tr("Open Config Folder(&C)...");
   if (idx == 1) return QObject::tr("Restore Preset Brushes...");
   if (idx == 2) return QObject::tr("Optimize with Multi-Thread Processing");
-  if (idx == 3) return QObject::tr("Brushing in a separate thread (Beta)"); //
+  if (idx == 3) return QObject::tr("Brush Processing is Done in a Separate Thread."); //
   if (idx == 4) return QObject::tr("Optimizing Brush Display Updates"); //
   if (idx == 5) return QObject::tr("Fast Saving of MDP Files"); //
 

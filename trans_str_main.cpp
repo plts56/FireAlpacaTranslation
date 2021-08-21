@@ -158,6 +158,10 @@ QString Trans_StrMain( int idx )
     if (idx == 171) return QObject::tr("位置を確定");
     if (idx == 172) return QObject::tr("両端の筆圧をゼロにする");
     if (idx == 173) return QObject::tr("1px 移動");
+    if (idx == 174) return QObject::tr("レイヤーを左に 1px 移動");
+    if (idx == 175) return QObject::tr("レイヤーを上に 1px 移動");
+    if (idx == 176) return QObject::tr("レイヤーを下に 1px 移動");
+    if (idx == 177) return QObject::tr("レイヤーを右に 1px 移動");
 
     if (idx == 180) return QObject::tr("パレットファイルの読み込み");
     if (idx == 181) return QObject::tr("パレットファイルの保存");
@@ -1124,6 +1128,10 @@ QString Trans_StrMain( int idx )
   if (idx == 171) return QObject::tr("Determine Position");
   if (idx == 172) return QObject::tr("Zero Pressure on Both Ends");
   if (idx == 173) return QObject::tr("Move 1px");
+  if (idx == 174) return QObject::tr("Move layer 1px to the left");
+  if (idx == 175) return QObject::tr("Move layer up 1px");
+  if (idx == 176) return QObject::tr("Move layer down 1px");
+  if (idx == 177) return QObject::tr("Move layer 1px to the right");
 
   if (idx == 180) return QObject::tr("Import Palette File");
   if (idx == 181) return QObject::tr("Export Palette File");

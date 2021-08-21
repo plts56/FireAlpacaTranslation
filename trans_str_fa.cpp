@@ -115,6 +115,8 @@ QString Trans_StrFA( int idx )
     if (idx == 2103) return QObject::tr("前のサイズ");
     if (idx == 2104) return QObject::tr("次のサイズ");
     if (idx == 2105) return QObject::tr("ブラシスクリプトエディタ..."); // Brush Script Editor
+    if (idx == 2106) return QObject::tr("基点を初期化する");
+    if (idx == 2107) return QObject::tr("ブラシストアからブラシを追加...");
 
     // その他
     if (idx == 2200) return QObject::tr("(全体設定)");
@@ -297,6 +299,8 @@ QString Trans_StrFA( int idx )
   if (idx == 2103) return QObject::tr("Previous Size");
   if (idx == 2104) return QObject::tr("Next Size");
   if (idx == 2105) return QObject::tr("Brush Script Editor...");
+  if (idx == 2106) return QObject::tr("Initialize Base Point");
+  if (idx == 2107) return QObject::tr("Add a Brush from the Brush Store...");
 
   if (idx == 2200) return QObject::tr("(Global settings)");
   if (idx == 2201) return QObject::tr("Use global settings");
