@@ -117,6 +117,10 @@ QString Trans_StrPng( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

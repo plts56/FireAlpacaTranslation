@@ -80,6 +80,10 @@ QString Trans_StrMenuHelp( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Open Config Folder(&C)...");
   if (idx == 1) return QObject::tr("Restore Preset Brushes...");
   if (idx == 2) return QObject::tr("Optimize with Multi-Thread Processing");

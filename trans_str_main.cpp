@@ -982,6 +982,10 @@ QString Trans_StrMain( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

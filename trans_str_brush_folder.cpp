@@ -67,6 +67,10 @@ QString Trans_StrBrushFolder( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

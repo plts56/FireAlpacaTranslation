@@ -117,6 +117,10 @@ QString Trans_StrChild( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

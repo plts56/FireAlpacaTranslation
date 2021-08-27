@@ -203,6 +203,10 @@ QString Trans_StrMenuView( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   if (idx == 0) return QObject::tr("View(&V)");
   if (idx == 1) return QObject::tr("Zoom In(&I)");
   if (idx == 2) return QObject::tr("Zoom Out(&O)");

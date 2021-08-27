@@ -116,6 +116,10 @@ QString Trans_StrMenuColor( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Color(&C)");
   if (idx == 1) return QObject::tr("Swap Fore/BG(&S)");
   if (idx == 2) return QObject::tr("Initialize(&I)");

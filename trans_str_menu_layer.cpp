@@ -412,6 +412,10 @@ QString Trans_StrMenuLayer( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Layer(&L)");
   if (idx == 1) return QObject::tr("Add(&A)");
   if (idx == 2) return QObject::tr("Duplicate(&C)");

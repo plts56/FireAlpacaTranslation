@@ -333,6 +333,10 @@ nstring Trans_Str( neet::TMangaString ms )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

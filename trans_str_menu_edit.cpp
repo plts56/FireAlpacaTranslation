@@ -204,6 +204,11 @@ QString Trans_StrMenuEdit( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
+
 #if defined(__NEET_QT_MAC__)
   // Mountain Lion のメニュー増殖回避
   if (idx == 0) return QObject::tr(" Edit(&E)");

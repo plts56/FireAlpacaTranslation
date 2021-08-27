@@ -87,6 +87,10 @@ QString Trans_StrMenuAnime( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   if (idx == 0) return QObject::tr("Animation(&A)"); // Animation
   if (idx == 15) return QObject::tr("Animation Mode(&A)");
   if (idx == 16) return QObject::tr("Select Next (Upper) Frame");

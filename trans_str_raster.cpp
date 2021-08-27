@@ -154,6 +154,10 @@ QString Trans_StrRaster( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////

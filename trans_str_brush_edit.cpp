@@ -448,6 +448,10 @@ QString Trans_StrBrushEdit( int idx )
   {
   }
 
+  if (man->TranslatePolish())
+  {
+  }
+
   ///////////////////
   // 翻訳がないので英語で
   ///////////////////
