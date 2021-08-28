@@ -39,6 +39,7 @@ QString Trans_StrMenuFile( int idx )
     if (idx == 19) return QObject::tr("書き出し (APNG)...");
     if (idx == 20) return QObject::tr("書き出し (アニメーションGIF)...");
     if (idx == 21) return QObject::tr("最近使ったフォルダ(&F)");
+    if (idx == 22) return QObject::tr("自動バックアップフォルダを開く...");
   }
 
   if (man->TranslateChineseSimp())
@@ -201,6 +202,7 @@ QString Trans_StrMenuFile( int idx )
   if (idx == 19) return QObject::tr("Export (APNG)...");
   if (idx == 20) return QObject::tr("Export (Animated GIF)...");
   if (idx == 21) return QObject::tr("Open Recent Folder(&F)");
+  if (idx == 22) return QObject::tr("Open the Auto Backup Folder...");
 
   return "";
 }
