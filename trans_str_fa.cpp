@@ -229,8 +229,8 @@ QString Trans_StrFA( int idx )
     if (idx == 800) return QObject::tr("Настройки управления цветом");
     if (idx == 801) return QObject::tr("Разрешить");
     if (idx == 802) return QObject::tr("CMYK Soft Proof");
-    if (idx == 803) return QObject::tr("RGB Профиль");
-    if (idx == 804) return QObject::tr("CMYK Профиль");
+    if (idx == 803) return QObject::tr("RGB профиль");
+    if (idx == 804) return QObject::tr("CMYK профиль");
     if (idx == 805) return QObject::tr("Выбрать RGB профиль");
     if (idx == 806) return QObject::tr("Выбрать CMYK профиль");
     if (idx == 807) return QObject::tr("Профиль дисплея");
