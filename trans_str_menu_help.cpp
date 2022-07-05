@@ -70,6 +70,15 @@ QString Trans_StrMenuHelp( int idx )
   if (man->TranslateRussian())
   {
     if (idx == 0) return QObject::tr("Открыть папку с настройками(&C)...");
+  if (idx == 1) return QObject::tr("Восстановить пресет кистей...");
+  if (idx == 2) return QObject::tr("Оптимизация с многоступенчатой обработкой");
+  if (idx == 3) return QObject::tr("Обработка кисти выполняется в отдельном потоке."); //
+  if (idx == 4) return QObject::tr("Оптимизация обновлений дисплея кисти"); //
+  if (idx == 5) return QObject::tr("Быстрое сохранение файлов MDP"); //
+
+  if (idx == 114) return QObject::tr("Сайт официальной поддержки");
+  if (idx == 115) return QObject::tr("Обучающие материалы");
+  if (idx == 116) return QObject::tr("Связаться с нами");
   }
 
   if (man->TranslateHindi())

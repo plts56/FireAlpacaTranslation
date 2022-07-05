@@ -402,16 +402,34 @@ QString Trans_StrLayer( int idx )
     if (idx == 1) return QObject::tr("Дубликат слоя");
     if (idx == 2) return QObject::tr("Объединить с нижним слоем");
     if (idx == 3) return QObject::tr("Удалить слой");
-    if (idx == 4) return QObject::tr("Добавить слой (8bpp)");
-    if (idx == 5) return QObject::tr("Добавить слой (1bpp)");
+    if (idx == 4) return QObject::tr("Добавить слой (8 bpp)");
+    if (idx == 5) return QObject::tr("Добавить слой (1 bpp)");
     if (idx == 6) return QObject::tr("Добавить папку слоев");
+    if (idx == 7) return QObject::tr("Доб. слой (полутон)");
+    if (idx == 100) return QObject::tr("Уст. основной цвет как цвет слоя");
+    if (idx == 101) return QObject::tr("Уст. цвет слоя как основной цвет");
+    if (idx == 102) return QObject::tr("Определить полутон");
+    if (idx == 103) return QObject::tr("Определить акварельный контур");
+    if (idx == 104) return QObject::tr("Создать группу");
+    if (idx == 105) return QObject::tr("Импорт как выбрано");
+    if (idx == 106) return QObject::tr("Импорт как выбрано(Доб.)");
+    if (idx == 107) return QObject::tr("Импорт изображения как нового слоя...");
+    if (idx == 108) return QObject::tr("Невозможно добавить в это расположение слоя");
+    if (idx == 109) return QObject::tr("Конвертировать слой Текст в слой Изображение");
+
+    if (idx == 200) return QObject::tr("Объединить все слои");
+    if (idx == 201) return QObject::tr("Сохранить необъединенные слои");
+    if (idx == 202) return QObject::tr("Исключить Текстовые слои");
+    if (idx == 203) return QObject::tr("Объединить включая Фоновый цвет (Рекомендуется)");
+    if (idx == 204) return QObject::tr("Сохранить невидимые слои");
+    if (idx == 205) return QObject::tr("Сохранить Текстовые слои");
 
     if (idx == 300) return QObject::tr("Непрозрачность");
     if (idx == 301) return QObject::tr("Наложение");
     if (idx == 302) return QObject::tr("Альфа-канал");
     if (idx == 303) return QObject::tr("Вырезать");
     if (idx == 304) return QObject::tr("Заблокировать");
-    if (idx == 310) return QObject::tr("Нормальный");
+    if (idx == 310) return QObject::tr("Обычные");
     if (idx == 311) return QObject::tr("Умножение");
     if (idx == 312) return QObject::tr("Сложение");
     if (idx == 313) return QObject::tr("Наложение");
@@ -422,11 +440,45 @@ QString Trans_StrLayer( int idx )
     if (idx == 318) return QObject::tr("Разница");
     if (idx == 319) return QObject::tr("Осветление");
     if (idx == 320) return QObject::tr("Затемнение");
+    if (idx == 321) return QObject::tr("Мягкий свет");
+    if (idx == 322) return QObject::tr("Жесткий свет");
+    if (idx == 323) return QObject::tr("Цветовой тон");
+    if (idx == 324) return QObject::tr("Насыщенность");
+    if (idx == 325) return QObject::tr("Цветность");
+    if (idx == 326) return QObject::tr("Яркость");
+    if (idx == 327) return QObject::tr("Если фильтр наложения настроен на Pass Through, то Clipping не будет отрабатывать правильно. Проверьте ваш фильтр наложения.");
+    if (idx == 328) return QObject::tr("Разделение");
+    if (idx == 329) return QObject::tr("Исключение");
+    if (idx == 330) return QObject::tr("Вычитание");
 
-    if (idx == 400) return QObject::tr("Имя");
+    if (idx == 400) return QObject::tr("Название");
     if (idx == 401) return QObject::tr("Черновой слой");
     if (idx == 402) return QObject::tr("Настройка слоев");
     if (idx == 403) return QObject::tr("Цвет");
+    if (idx == 404) return QObject::tr("Полутон");
+    if (idx == 405) return QObject::tr("Не принимать полутона");
+    if (idx == 406) return QObject::tr("Без точек");
+    if (idx == 407) return QObject::tr("Вертикальные линии");
+    if (idx == 408) return QObject::tr("Горизонтальные линии");
+    if (idx == 409) return QObject::tr("Линии");
+    if (idx == 410) return QObject::tr("Submit・Скрыть при растеризации");
+    if (idx == 411) return QObject::tr("Эффект");
+    if (idx == 412) return QObject::tr("Ничего");
+    if (idx == 413) return QObject::tr("Акварельный контур");
+    if (idx == 414) return QObject::tr("Акварельный контур(Облачный)");
+    if (idx == 415) return QObject::tr("Сила");
+    if (idx == 416) return QObject::tr("Ширина");
+    if (idx == 417) return QObject::tr("Уст. глубину тона");
+    if (idx == 418) return QObject::tr("Полутонирование");
+    if (idx == 419) return QObject::tr("Плотность полутона");
+    if (idx == 420) return QObject::tr("линий");
+    if (idx == 421) return QObject::tr("Ничего");
+    if (idx == 422) return QObject::tr("Окружность");
+    if (idx == 423) return QObject::tr("Горизонтальная линия");
+    if (idx == 424) return QObject::tr("Вертикальная линия");
+    if (idx == 425) return QObject::tr("Включено");
+    if (idx == 426) return QObject::tr("Количество кадров на дисплее");
+    if (idx == 427) return QObject::tr("кадры");
   }
 
   if (man->TranslateHindi())

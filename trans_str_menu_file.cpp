@@ -163,9 +163,21 @@ QString Trans_StrMenuFile( int idx )
     if (idx == 5) return QObject::tr("Сохранить(&S)");
     if (idx == 6) return QObject::tr("Сохранить как(&A)...");
     if (idx == 7) return QObject::tr("Растрировать(&Z)...");
-    if (idx == 8) return QObject::tr("Настройки среды(&K)...");
+    if (idx == 8) return QObject::tr("Настройка рабочей среды(&K)...");
     if (idx == 9) return QObject::tr("Закрыть(&C)");
-    if (idx == 10) return QObject::tr("Настройки горячих клавиш(&H)...");
+    if (idx == 10) return QObject::tr("Настройка горячих клавиш(&H)...");
+    if (idx == 11) return QObject::tr("Печать(&P)...");
+    if (idx == 12) return QObject::tr("Экспортировать слои...");
+    if (idx == 13) return QObject::tr("Экспорт...");
+    if (idx == 14) return QObject::tr("Открыть изображение как слой.");
+    if (idx == 15) return QObject::tr("Экспорт (CMYK format PSD)...");
+    if (idx == 16) return QObject::tr("Настройки среды кисти(&B)...");
+    if (idx == 17) return QObject::tr("Открыть как новый слой(&L)...");
+    if (idx == 18) return QObject::tr("Сохранить как (с указанием даты)(&D)...");
+    if (idx == 19) return QObject::tr("Экспорт (APNG)...");
+    if (idx == 20) return QObject::tr("Экспорт (Animated GIF)...");
+    if (idx == 21) return QObject::tr("Открыть последний каталог(&F)");
+    if (idx == 22) return QObject::tr("Открыть папку автосохранений...");
   }
 
   if (man->TranslateHindi())

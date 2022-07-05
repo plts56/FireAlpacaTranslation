@@ -194,8 +194,121 @@ QString Trans_StrFA( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 2200) return QObject::tr("(Глобальные настройки)");
-    if (idx == 2201) return QObject::tr("Глобальные настройки"); // 「を使う」を省略
+    if (idx == 0) return QObject::tr("Уверены что хотите инициализировать кисть?");
+
+    if (idx == 10) return QObject::tr("Настройки AlpacaGet");
+    if (idx == 11) return QObject::tr("Продолжительность публикации");
+    if (idx == 12) return QObject::tr("3 минуты");
+    if (idx == 13) return QObject::tr("3 часа");
+    if (idx == 14) return QObject::tr("3 дня");
+    if (idx == 15) return QObject::tr("33 дня");
+    if (idx == 16) return QObject::tr("Не удалось выделить память чтобы поделиться.");
+    if (idx == 17) return QObject::tr("Прозрачный фон");
+    if (idx == 20) return QObject::tr("Разместить изображение на AlpacaGET...");
+    if (idx == 21) return QObject::tr("Готово");
+    if (idx == 30) return QObject::tr("Очистить слой");
+    if (idx == 31) return QObject::tr("Поделиться изображением на AlpacaGET ...");
+    if (idx == 32) return QObject::tr("Открыть сайт AlpacaGET\'s ...");
+    if (idx == 33) return QObject::tr("Применить основной цвет");
+    if (idx == 34) return QObject::tr("Опубликовать на pixiv Sketch...");
+    if (idx == 35) return QObject::tr("Открыть pixiv Sketch\'s Website ...");
+    if (idx == 36) return QObject::tr("pixiv Sketch настройки публикации");
+    if (idx == 37) return QObject::tr("Уложиться в следующие размеры");
+    if (idx == 38) return QObject::tr("Ваша публикация не готова. Проверьте сетевое подключение и попробуйте позже. [firealpaca.com] также может быть недоступен.");
+    if (idx == 39) return QObject::tr("Опубликовать на Canvas Image");
+    if (idx == 40) return QObject::tr("Опубликовать изобр. Раб. пространства");
+    if (idx == 41) return QObject::tr("Сохр. изображение Раб. пространства...");
+
+    if (idx == 100) return QObject::tr("Экспорт настроек");
+    if (idx == 101) return QObject::tr("Уложиться в следующие размеры");
+    if (idx == 102) return QObject::tr("Формат файла");
+    if (idx == 103) return QObject::tr("Экспорт образа");
+    if (idx == 104) return QObject::tr("Растеризация и экспорт изображения.");
+    if (idx == 105) return QObject::tr("Изменить разрешение");
+
+    if (idx == 800) return QObject::tr("Настройки управления цветом");
+    if (idx == 801) return QObject::tr("Разрешить");
+    if (idx == 802) return QObject::tr("CMYK Soft Proof");
+    if (idx == 803) return QObject::tr("RGB Профиль");
+    if (idx == 804) return QObject::tr("CMYK Профиль");
+    if (idx == 805) return QObject::tr("Выбрать RGB профиль");
+    if (idx == 806) return QObject::tr("Выбрать CMYK профиль");
+    if (idx == 807) return QObject::tr("Профиль дисплея");
+    if (idx == 808) return QObject::tr("Rendering Intent");
+    if (idx == 809) return QObject::tr("Восприятие");
+    if (idx == 810) return QObject::tr("Насыщенность");
+    if (idx == 811) return QObject::tr("Relative Colormetric");
+    if (idx == 812) return QObject::tr("Absolute Colormetric");
+    if (idx == 813) return QObject::tr("Black Point Compensation");
+    if (idx == 814) return QObject::tr("Открыть целевую папку поиска ICC профиля (пронумеровать при запуске)");
+    if (idx == 815) return QObject::tr("Необходимо настроить цветность дисплея и привязать ICC профиль к дисплею");
+    if (idx == 816) return QObject::tr("Использовать профиль Монитора");
+
+    if (idx == 900) return QObject::tr("Редактор размера кисти");
+    if (idx == 901) return QObject::tr("Инициализировать размер кисти");
+
+    if (idx == 1700) return QObject::tr("Сохранить настройки PSD");
+    if (idx == 1701) return QObject::tr("Не сохранять альфа канал(24bpp)");
+
+    if (idx == 1800) return QObject::tr("Настройки сетки");
+    if (idx == 1801) return QObject::tr("Ширина");
+    if (idx == 1802) return QObject::tr("Высота");
+    if (idx == 1803) return QObject::tr("Подразделов");
+
+    if (idx == 2000) return QObject::tr("Редактор скрипта кисти");
+    if (idx == 2001) return QObject::tr("Скрипт образца");
+    if (idx == 2002) return QObject::tr("Импорт текущей кисти");
+    if (idx == 2003) return QObject::tr("Сохранить как(только исполняемый скрипт)");
+    if (idx == 2004) return QObject::tr("Выполнить");
+    if (idx == 2005) return QObject::tr("Импорт из файла");
+    if (idx == 2006) return QObject::tr("Выбор файла");
+    if (idx == 2007) return QObject::tr("");
+    if (idx == 2008) return QObject::tr("");
+    if (idx == 2009) return QObject::tr("");
+    if (idx == 2010) return QObject::tr("Образец 1 (Simple main)");
+    if (idx == 2011) return QObject::tr("Образец 2 (Interval)");
+    if (idx == 2012) return QObject::tr("Образец 3 (Triangle)");
+    if (idx == 2013) return QObject::tr("Образец 4 (Pen)");
+    if (idx == 2020) return QObject::tr("Уверены, что импортируете скрипт?");
+    if (idx == 2021) return QObject::tr("");
+    if (idx == 2022) return QObject::tr("Ширина");
+    if (idx == 2023) return QObject::tr("Скрипт кисти(*.bs)");
+    if (idx == 2024) return QObject::tr("Сохранить файл скрипта кисти");
+    if (idx == 2025) return QObject::tr("Образец 5 (Debug Output)");
+    if (idx == 2026) return QObject::tr("Образец 6 (last() function)");
+    if (idx == 2027) return QObject::tr("Образец 7 (Interval)");
+
+    if (idx == 2100) return QObject::tr("Кисть");
+    if (idx == 2101) return QObject::tr("Предыдущая кисть");
+    if (idx == 2102) return QObject::tr("Следующая кисть");
+    if (idx == 2103) return QObject::tr("Предыдущий размер");
+    if (idx == 2104) return QObject::tr("Следующий размер");
+    if (idx == 2105) return QObject::tr("Редактор скрипта кисти...");
+    if (idx == 2106) return QObject::tr("Инициализация Базовой Точки");
+    if (idx == 2107) return QObject::tr("Добавить кисть из Магазина кистей...");
+    if (idx == 2200) return QObject::tr("(Общие настройки)");
+    if (idx == 2201) return QObject::tr("Общие настройки"); // 「を使う」を省略
+
+    if (idx == 2300) return QObject::tr("Копировать");
+    if (idx == 2301) return QObject::tr("Вставить");
+
+    if (idx == 2400) return QObject::tr("Импорт из файла...");
+   if (idx == 2401) return QObject::tr("Импорт из буфера обмена");
+
+    if (idx == 2500) return QObject::tr("Выбрать пресет кисти");
+    if (idx == 2501) return QObject::tr("Имя");
+
+    if (idx == 2600) return QObject::tr("Высокое качество на выходе");
+    if (idx == 2601) return QObject::tr("Cached");
+    if (idx == 2602) return QObject::tr("Старт");
+
+    if (idx == 2700) return QObject::tr("Настройки APNG");
+    if (idx == 2701) return QObject::tr("Сделать фон прозрачным");
+    if (idx == 2702) return QObject::tr("Настройки Анимации GIF");
+    if (idx == 2703) return QObject::tr("Бесконечная петля");
+    if (idx == 2704) return QObject::tr("Loop Count");
+
+    if (idx == 2800) return QObject::tr("Магазин кистей");
   }
 
   if (man->TranslateHindi())

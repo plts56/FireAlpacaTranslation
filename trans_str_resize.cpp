@@ -174,6 +174,7 @@ QString Trans_StrResize( int idx )
     if (idx == 13) return QObject::tr("Размер холста");
 
     if (idx == 15) return QObject::tr("Текущий размер");
+    if (idx == 16) return QObject::tr("Удалить обрезанную область");
   }
 
   if (man->TranslateHindi())

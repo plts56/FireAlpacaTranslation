@@ -887,17 +887,17 @@ QString Trans_StrMain( int idx )
     if (idx == 13) return QObject::tr("Инструмент ПИПЕТКА");
     if (idx == 14) return QObject::tr("Инструмент РУКА");
 
-    if (idx == 15) return QObject::tr("Снэппинг отключен");
-    if (idx == 16) return QObject::tr("Параллельный снэппинг");
-    if (idx == 17) return QObject::tr("Перекрестный снэппинг");
-    if (idx == 18) return QObject::tr("Радиальный снэппинг");
-    if (idx == 19) return QObject::tr("Настройки снэппинга");
+    if (idx == 15) return QObject::tr("Привязывание отключено");
+    if (idx == 16) return QObject::tr("Параллельное привязывание");
+    if (idx == 17) return QObject::tr("Перекрестное привязывание");
+    if (idx == 18) return QObject::tr("Радиальное привязывание");
+    if (idx == 19) return QObject::tr("Настройки привязывания");
 
     if (idx == 20) return QObject::tr("Сглаживание");
     if (idx == 21) return QObject::tr("Коррекция");
     if (idx == 22) return QObject::tr("Скругление углов");
     if (idx == 23) return QObject::tr("Непрозрачность");
-    if (idx == 24) return QObject::tr("Ссылка");
+    if (idx == 24) return QObject::tr("Образец");
     if (idx == 25) return QObject::tr("Холст");
     if (idx == 26) return QObject::tr("Слой");
     if (idx == 27) return QObject::tr("Расширить");
@@ -905,22 +905,24 @@ QString Trans_StrMain( int idx )
     if (idx == 29) return QObject::tr("Текст");
     if (idx == 30) return QObject::tr("Линейный");
     if (idx == 31) return QObject::tr("Круговой");
-    if (idx == 32) return QObject::tr("Передний план - фон");
-    if (idx == 33) return QObject::tr("Передний план");
+    if (idx == 32) return QObject::tr("Основной-Фоновый");
+    if (idx == 33) return QObject::tr("Основной");
     if (idx == 34) return QObject::tr("Прямоугольник");
     if (idx == 35) return QObject::tr("Эллипс");
     if (idx == 36) return QObject::tr("Многоугольник");
-    if (idx == 37) return QObject::tr("Нет варианта");
+    if (idx == 37) return QObject::tr("Без вариантов");
     if (idx == 38) return QObject::tr("Лассо");
+    if (idx == 39) return QObject::tr("Инструмент лассо");
 
     if (idx == 40) return QObject::tr("Цвет");
     if (idx == 41) return QObject::tr("Параметры кисти");
     if (idx == 42) return QObject::tr("Кисть");
-    if (idx == 43) return QObject::tr("Навигатор");
+    if (idx == 43) return QObject::tr("Навигация");
     if (idx == 44) return QObject::tr("Слой");
-    if (idx == 45) return QObject::tr("Предварительный просмотр кисти");
+    if (idx == 45) return QObject::tr("Предпросмотр кисти");
     if (idx == 46) return QObject::tr("Палитра");
     if (idx == 47) return QObject::tr("Модель");
+    if (idx == 48) return QObject::tr("Размер кисти");
 
     if (idx == 50) return QObject::tr("(Отразить)");
     if (idx == 51) return QObject::tr("Файл не существует.");
@@ -933,6 +935,8 @@ QString Trans_StrMain( int idx )
     if (idx == 54) return QObject::tr("Исправление перспективы");
     if (idx == 55) return QObject::tr("Открыть изображение");
     if (idx == 56) return QObject::tr("Изображения");
+    if (idx == 57) return QObject::tr("Circle Snap");
+    if (idx == 58) return QObject::tr("Curve Snap");
 
     if (idx == 60) return QObject::tr("Расширить");
     if (idx == 61) return QObject::tr("Сжать");
@@ -960,7 +964,7 @@ QString Trans_StrMain( int idx )
     if (idx == 82) return QObject::tr("Кернинг");
     if (idx == 83) return QObject::tr("Интерлиньяж");
 
-    if (idx == 85) return QObject::tr("Выбрать из центра");
+    if (idx == 85) return QObject::tr("Создать от центра");
     if (idx == 86) return QObject::tr("Сохранять пропорции");
 
     if (idx == 87) return QObject::tr("Для обновления настроек программа будет закрыта. Перезапустите программу после закрытия");
@@ -972,6 +976,62 @@ QString Trans_StrMain( int idx )
     if (idx == 92) return QObject::tr("%1 не может быть открыт так как не является MDP файлом");
     if (idx == 93) return QObject::tr("Файл уже существует");
     if (idx == 94) return QObject::tr("Открыть \"AlpacaDouga\", сервис для создания анимации GIF, в браузере?");
+    if (idx == 95) return QObject::tr("Прозрачный фон?");
+    if (idx == 96) return QObject::tr("Создать папку?");
+    if (idx == 110) return QObject::tr("От руки");
+    if (idx == 111) return QObject::tr("Линия");
+    if (idx == 112) return QObject::tr("Полилиния");
+    if (idx == 113) return QObject::tr("Многоугольник");
+    if (idx == 114) return QObject::tr("Прямоугольник");
+    if (idx == 115) return QObject::tr("Эллипс");
+    if (idx == 116) return QObject::tr("Кривая");
+    if (idx == 117) return QObject::tr("Форма");
+
+    if (idx == 120) return QObject::tr("3D Perspective Snap");
+    if (idx == 122) return QObject::tr("Отменить");
+    if (idx == 123) return QObject::tr("По сетке");
+    if (idx == 124) return QObject::tr("Ignore Layer Color");
+    if (idx == 125) return QObject::tr("Ignore Draft Layer");
+
+    if (idx == 130) return QObject::tr("Автосохранение...");
+    if (idx == 131) return QObject::tr("Автосохранение готово");
+    if (idx == 132) return QObject::tr("Автосохранение отключено(Недостаточно памяти)\n\nСтабильность приложения значительно снижена");
+    if (idx == 133) return QObject::tr("Восстановить автосохранение изображения?");
+
+    if (idx == 135) return QObject::tr("Не удалось опубликовать на pixiv Sketch");
+
+    if (idx == 140) return QObject::tr("Скруглять углы");
+
+    if (idx == 150) return QObject::tr("Скруглять углы, сохранять ширину линии");
+
+    if (idx == 160) return QObject::tr("Убрать разрыв");
+    if (idx == 162) return QObject::tr("Допуск");
+    if (idx == 163) return QObject::tr("Прозрачный-Основной");
+    if (idx == 164) return QObject::tr("Настраиваемый");
+
+    if (idx == 170) return QObject::tr("Определять по каждому перетаскиванию");
+    if (idx == 171) return QObject::tr("Определить положение");
+    if (idx == 172) return QObject::tr("Нулевое давление на обоих концах");
+    if (idx == 173) return QObject::tr("Сдвиг на 1px");
+    if (idx == 174) return QObject::tr("Подвинуть слой на 1px влево");
+    if (idx == 175) return QObject::tr("Подвинуть слой на 1px вверх");
+    if (idx == 176) return QObject::tr("Подвинуть слой на 1px вниз");
+    if (idx == 177) return QObject::tr("Подвинуть слой на 1px вправо");
+
+    if (idx == 180) return QObject::tr("Импорт файла палитры");
+    if (idx == 181) return QObject::tr("Экспорт файла палитры");
+    if (idx == 182) return QObject::tr("Палитра FireAlpaca (*.fap);;Палитра FireAlpaca (*.fap)");
+
+    if (idx == 190) return QObject::tr("Трансформация");
+    if (idx == 191) return QObject::tr("Своб. трансформация");
+    if (idx == 192) return QObject::tr("Трансформация по сетке");
+
+    if (idx == 200) return QObject::tr("Двусторонний");
+    if (idx == 201) return QObject::tr("Вертикальный");
+    if (idx == 202) return QObject::tr("Повернутый");
+    if (idx == 203) return QObject::tr(" (Зеркальный)");
+    if (idx == 204) return QObject::tr("Плитка");
+    if (idx == 205) return QObject::tr("Симметричный");
   }
 
   if (man->TranslateHindi())
@@ -1018,7 +1078,7 @@ QString Trans_StrMain( int idx )
   if (idx == 25) return QObject::tr("Canvas"); // キャンバス [レイヤーの参照対象]
   if (idx == 26) return QObject::tr("Active Layer");  // アクティブレイヤー [レイヤーの参照対象]
   if (idx == 27) return QObject::tr("Expand"); // 拡張 [自動選択やバケツ塗りつぶしの拡張処理]
-  if (idx == 28) return QObject::tr("Shape"); // 形状 [グラデーションの形状]
+  if (idx == 28) return QObject::tr("	"); // 形状 [グラデーションの形状]
   if (idx == 29) return QObject::tr("Type");  // タイプ [グラデーションの型]
   if (idx == 30) return QObject::tr("Linear"); // 線形 [グラデーションの形状]
   if (idx == 31) return QObject::tr("Circular"); // 円形 [グラデーションの形状]

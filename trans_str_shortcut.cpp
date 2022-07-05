@@ -92,6 +92,17 @@ QString Trans_StrShortcut( int idx )
 
   if (man->TranslateRussian())
   {
+    if (idx == 0) return QObject::tr("Настройка горячих клавиш");
+    if (idx == 1) return QObject::tr("Назначьте клавиши");
+    if (idx == 2) return QObject::tr("Клавиша уже используется");
+    if (idx == 3) return QObject::tr("Приоритет перезаписи");
+    if (idx == 4) return QObject::tr("Редактировать");
+    if (idx == 5) return QObject::tr("Очистить");
+    if (idx == 6) return QObject::tr("Инициализировать");
+    if (idx == 7) return QObject::tr("Команда");
+    if (idx == 8) return QObject::tr("Клавиша");
+    if (idx == 9) return QObject::tr("Перезаписать");
+    if (idx == 10) return QObject::tr("Восстановить настройки по умолчанию?");
   }
 
   if (man->TranslateHindi())

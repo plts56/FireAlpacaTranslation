@@ -162,17 +162,20 @@ QString Trans_StrTransform( int idx )
   if (man->TranslateRussian())
   {
     if (idx == 0) res = QObject::tr("Преобразовать изображение");
-    if (idx == 1) res = QObject::tr("Ok");
+    if (idx == 1) res = QObject::tr("Ок");
     if (idx == 2) res = QObject::tr("Отменить");
     if (idx == 3) res = QObject::tr("Фильтр");
     if (idx == 4) res = QObject::tr("Вид");
     if (idx == 5) res = QObject::tr("По соседним (ступенчатая интерполяция)");
-    if (idx == 6) res = QObject::tr("Билинейная интерполяция (гладкий)");
-    if (idx == 7) res = QObject::tr("Бикубическая интерполяция (чётче)");
+    if (idx == 6) res = QObject::tr("Билинейная интерполяция");
+    if (idx == 7) res = QObject::tr("Бикубическая интерполяция");
     if (idx == 10) res = QObject::tr("Столбец");
     if (idx == 11) res = QObject::tr("Строка");
     if (idx == 12) res = QObject::tr("Связь по вертикали");
     if (idx == 13) res = QObject::tr("Связь по горизонтали");
+    if (idx == 14) res = QObject::tr("Отразить");
+    if (idx == 15) res = QObject::tr("Fix Center");
+    if (idx == 16) res = QObject::tr("Fix Diagonal");
   }
 
   if (man->TranslateHindi())

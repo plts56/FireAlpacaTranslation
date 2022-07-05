@@ -132,7 +132,7 @@ QString Trans_StrMenuSelect( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Выделить(&S)"); // Select
+    if (idx == 0) return QObject::tr("Выделение(&S)"); // Select
     if (idx == 1) return QObject::tr("Все(&A)"); // Add
     if (idx == 2) return QObject::tr("Отменить(&D)"); // Deselect
     if (idx == 3) return QObject::tr("Инверсия(&I)"); // Inverse
@@ -140,8 +140,10 @@ QString Trans_StrMenuSelect( int idx )
     if (idx == 5) return QObject::tr("Сжать(&C)..."); // Contract
     if (idx == 6) return QObject::tr("Выделить на слое / непрозрачность(&O)"); // Create Selection from Layer (Opacity)
     if (idx == 7) return QObject::tr("Выделить на слое / яркость(&B)"); // Create Selection from Layer (Brightness)
-    if (idx == 8) return QObject::tr("Преобразовать(&T)"); // Transform
-    if (idx == 9) return QObject::tr("Нарисовать границы выделения(&B)..."); // Draw Selection Border
+    if (idx == 8) return QObject::tr("Трансформация(&T)"); // Transform
+    if (idx == 9) return QObject::tr("Нарисовать границу выделения(&B)..."); // Draw Selection Border
+    if (idx == 10) return QObject::tr("Трансформация по сетке(&M)");
+    if (idx == 11) return QObject::tr("Подсвечивать внешнее(&H)");
   }
 
   if (man->TranslateHindi())

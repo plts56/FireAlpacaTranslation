@@ -172,20 +172,27 @@ QString Trans_StrText( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Редактировать текст");
-    if (idx == 1) return QObject::tr("Имя шрифта");
+    if (idx == 0) return QObject::tr("Редактор текста");
+    if (idx == 1) return QObject::tr("Название шрифта");
     if (idx == 2) return QObject::tr("Размер текста");
     if (idx == 3) return QObject::tr("Устранение искажений");
     if (idx == 4) return QObject::tr("Интервал между символами");
     if (idx == 5) return QObject::tr("Интервал между строками");
-    if (idx == 6) return QObject::tr("Выравнивать по левому краю");
-    if (idx == 7) return QObject::tr("Выравнивать по центру");
-    if (idx == 8) return QObject::tr("Выравнивать по правому краю");
+    if (idx == 6) return QObject::tr("Выровнять по левому краю");
+    if (idx == 7) return QObject::tr("Выровнять по центру");
+    if (idx == 8) return QObject::tr("Выровнять по правому краю");
     if (idx == 9) return QObject::tr("Жирный");
     if (idx == 10) return QObject::tr("Курсив");
-    if (idx == 11) return QObject::tr("Зачеркивание");
+    if (idx == 11) return QObject::tr("Зачеркнутый");
     if (idx == 12) return QObject::tr("Цвет текста");
     if (idx == 13) return QObject::tr("Вертикальный");
+
+    if (idx == 16) return QObject::tr("Ширина кромки");
+    if (idx == 17) return QObject::tr("Цвет кромки");
+    if (idx == 18) return QObject::tr("Поворот");
+
+    if (idx == 30) return QObject::tr("Угол поворота");
+    if (idx == 31) return QObject::tr("град.");
   }
 
   if (man->TranslateHindi())

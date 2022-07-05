@@ -144,6 +144,14 @@ QString Trans_StrRaster( int idx )
     if (idx == 6) return QObject::tr("Финишная черта (Переплет)");
     if (idx == 7) return QObject::tr("Поле под обрез");
     if (idx == 8) return QObject::tr("Метка обрезки");
+    if (idx == 9) return QObject::tr("Исключить Текстовые слои");
+    if (idx == 10) return QObject::tr("Монохромный 2 тон (1bpp)");
+    if (idx == 11) return QObject::tr("Не применять полутонирование");
+
+    if (idx == 20) return QObject::tr("Canvas");
+    if (idx == 21) return QObject::tr("Расширить на Tombo");
+    if (idx == 22) return QObject::tr("Внешн. Frame");
+    if (idx == 23) return QObject::tr("Внутр. Frame");
   }
 
   if (man->TranslateHindi())

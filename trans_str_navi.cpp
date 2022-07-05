@@ -111,7 +111,7 @@ QString Trans_StrNavi( int idx )
   {
     if (idx == 0) return QObject::tr("Увеличить");
     if (idx == 1) return QObject::tr("Уменьшить");
-    if (idx == 2) return QObject::tr("Подогнать по размеру окна");
+    if (idx == 2) return QObject::tr("По размеру окна");
     if (idx == 3) return QObject::tr("Повернуть влево");
     if (idx == 4) return QObject::tr("Отменить поворот");
     if (idx == 5) return QObject::tr("Повернуть вправо");

@@ -81,10 +81,10 @@ QString Trans_StrBorder( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Нарисовать границы выделения");
-    if (idx == 1) return QObject::tr("Внутри");
+    if (idx == 0) return QObject::tr("Нарисовать границу выделения");
+    if (idx == 1) return QObject::tr("Изнутри");
     if (idx == 2) return QObject::tr("Снаружи");
-    if (idx == 3) return QObject::tr("На границе");
+    if (idx == 3) return QObject::tr("По контуру");
   }
 
   if (man->TranslateHindi())

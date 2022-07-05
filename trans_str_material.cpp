@@ -62,6 +62,19 @@ QString Trans_StrMaterial( int idx )
 
   if (man->TranslateRussian())
   {
+    if (idx == 0) return QObject::tr("Разделение Комик панели");
+    if (idx == 1) return QObject::tr("Кол-во вертикальных разделов");
+    if (idx == 2) return QObject::tr("Кол-во горизонтальных разделов");
+
+    if (idx == 1300) return QObject::tr("Свойства Комикс панели");
+    if (idx == 1301) return QObject::tr("Ширина линии");
+    if (idx == 1302) return QObject::tr("Цвет рамки");
+    if (idx == 1303) return QObject::tr("Черный");
+    if (idx == 1304) return QObject::tr("Основной цвет");
+    if (idx == 1305) return QObject::tr("Расположение");
+    if (idx == 1306) return QObject::tr("Не определено");
+    if (idx == 1307) return QObject::tr("Внутренняя рамка");
+    if (idx == 1308) return QObject::tr("Внешняя рамка");
   }
 
   if (man->TranslateHindi())

@@ -77,6 +77,13 @@ QString Trans_StrMenuAnime( int idx )
   if (man->TranslateRussian())
   {
     if (idx == 0) return QObject::tr("Анимация(&A)"); // Animation
+  if (idx == 15) return QObject::tr("Режим анимации(&A)");
+  if (idx == 16) return QObject::tr("Выбрать след. (верхний) кадр");
+  if (idx == 17) return QObject::tr("Выбрать пред. (нижний) кадр");
+  if (idx == 18) return QObject::tr("Автовоспроизведение...");
+  if (idx == 19) return QObject::tr("Всегда показывать первый кадр");
+  if (idx == 20) return QObject::tr("Отображать след./пред. кадр (Onion Skin)");
+  if (idx == 30) return QObject::tr("Настройки Onion Skin...)");
   }
 
   if (man->TranslateHindi())

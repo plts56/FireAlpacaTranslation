@@ -83,7 +83,7 @@ QString Trans_StrReso( int idx )
   {
     if (idx == 0) return QObject::tr("Ширина");
     if (idx == 1) return QObject::tr("Высота");
-    if (idx == 4) return QObject::tr("Пропорции ограничений");
+    if (idx == 4) return QObject::tr("Соблюдать пропорции");
     if (idx == 5) return QObject::tr("Размер изображения");
   }
 

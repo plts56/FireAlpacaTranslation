@@ -132,14 +132,18 @@ QString Trans_StrMenuSnap( int idx )
   if (man->TranslateRussian())
   {
     if (idx == 0) return QObject::tr("Линейка(&N)"); // Snap
-    if (idx == 1) return QObject::tr("Отключить(&O)"); // Off
-    if (idx == 2) return QObject::tr("Параллельный(&P)"); // Parallel
-    if (idx == 3) return QObject::tr("Перекрестный(&C)"); // Crisscross
+    if (idx == 1) return QObject::tr("Отключено(&O)"); // Off
+    if (idx == 2) return QObject::tr("Параллельная(&P)"); // Parallel
+    if (idx == 3) return QObject::tr("Перекрестная(&C)"); // Crisscross
     if (idx == 4) return QObject::tr("Исправление перспективы(&V)"); // Vanish
-    if (idx == 5) return QObject::tr("Радиальный(&R)"); // Radial
+    if (idx == 5) return QObject::tr("Радиальная(&R)"); // Radial
     if (idx == 6) return QObject::tr("Круговая привязка"); // Circle
     if (idx == 7) return QObject::tr("Привязка к кривой"); // Curve
     if (idx == 8) return QObject::tr("Сохранить привязку(&S)..."); // Save Snap
+    if (idx == 9) return QObject::tr("Отрисовать кривую");
+    if (idx == 10) return QObject::tr("Отрисовать кривую(нарастание/затухание)");
+    if (idx == 12) return QObject::tr("3D Перспектива");
+    if (idx == 13) return QObject::tr("Доб. 3D Перспективу");
   }
 
   if (man->TranslateHindi())

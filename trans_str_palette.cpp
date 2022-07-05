@@ -116,11 +116,12 @@ QString Trans_StrPalette( int idx )
   {
     if (idx == 0) return QObject::tr("Добавить цвет");
     if (idx == 1) return QObject::tr("Удалить цвет");
-    if (idx == 2) return QObject::tr("Удалите этот цвет?");
+    if (idx == 2) return QObject::tr("Удалить цвет?");
+    if (idx == 3) return QObject::tr("Все палитры в группе будут удалены. Вы уверены?");
 
     if (idx == 100) return QObject::tr("Добавить цвет");
     if (idx == 101) return QObject::tr("Изменить цвет");
-    if (idx == 102) return QObject::tr("Имя");
+    if (idx == 102) return QObject::tr("Название");
     if (idx == 103) return QObject::tr("Предыдущий цвет");
     if (idx == 104) return QObject::tr("Текущий цвет");
   }

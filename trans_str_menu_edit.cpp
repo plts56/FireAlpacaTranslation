@@ -184,11 +184,11 @@ QString Trans_StrMenuEdit( int idx )
     if (idx == 0) return QObject::tr("Редактировать(&E)"); // Edit
 #endif
     if (idx == 1) return QObject::tr("Отменить(&Z)"); // Undo
-    if (idx == 2) return QObject::tr("Восстановить(&Y)"); // Redo
+    if (idx == 2) return QObject::tr("Повторить(&Y)"); // Redo
     if (idx == 3) return QObject::tr("Вырезать(&T)"); // Cut
-    if (idx == 4) return QObject::tr("Скопировать(&C)"); // Copy
-    if (idx == 5) return QObject::tr("Вклеить(&V)"); // Paste
-    if (idx == 6) return QObject::tr("Тримминг(&M)"); // Trim
+    if (idx == 4) return QObject::tr("Копировать(&C)"); // Copy
+    if (idx == 5) return QObject::tr("Вставить(&V)"); // Paste
+    if (idx == 6) return QObject::tr("Обрезать(&M)"); // Trim
     if (idx == 7) return QObject::tr("Повернуть влево(&L)"); // Rotate Left
     if (idx == 8) return QObject::tr("Повернуть вправо(&R)"); // Rotate Right
     if (idx == 9) return QObject::tr("Отразить по горизонтали(&H)"); // Flip Horizontally
