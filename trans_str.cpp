@@ -300,30 +300,30 @@ nstring Trans_Str( neet::TMangaString ms )
     if (ms == MS_MASK) s = QObject::tr("Маска");
     if (ms == MS_STENCIL) s = QObject::tr("Трафарет");
 
-    if (ms == MS_CAP_SELECT_OPTION) s = QObject::tr("Добавить, удерживая клавишу Shift; удалить, удерживая клавишу Ctrl");
+    if (ms == MS_CAP_SELECT_OPTION) s = QObject::tr("Добавляйте выделение, удерживая Shift; удаляйте выделение, удерживая Ctrl");
     if (ms == MS_CAP_LAYER_IS_LOCKED) s = QObject::tr("Редактирование невозможно – слой заблокирован");
-    if (ms == MS_CAP_SNAP_15DEG) s = QObject::tr("Поворачивайте на 15 градусов, удерживая клавишу Ctrl");
-    if (ms == MS_CAP_SHIFT_VH) s = QObject::tr("Перемещайте по горизонтали / перпендикулярно, удерживая клавишу Shift");
-    if (ms == MS_CAP_ON_BRUSH) s = QObject::tr("Рисуйте прямую линию, удерживая клавишу Shift; изменяйте размер кисти, удерживая клавиши Ctrl + Alt и перетаскивая");
+    if (ms == MS_CAP_SNAP_15DEG) s = QObject::tr("Поворачивайте на 15 градусов, удерживая Ctrl");
+    if (ms == MS_CAP_SHIFT_VH) s = QObject::tr("Перемещайте строго по горизонтали или по вертикали, удерживая Shift");
+    if (ms == MS_CAP_ON_BRUSH) s = QObject::tr("Рисуйте прямые линии, удерживая Shift; изменяйте размер кисти перетаскиванием, удерживая Ctrl + Alt");
 
-    if (ms == MS_CAP_CLICK_TO_ZOOMIN) s = QObject::tr("Увеличивайте, нажатием кнопки мыши. ");
-    if (ms == MS_CAP_CLICK_TO_ZOOMOUT) s = QObject::tr("Уменьшайте, нажатием кнопки мыши. ");
-    if (ms == MS_CAP_DRAG_UD_ZOOM) s = QObject::tr("Увеличивайте и уменьшайте, перетаскивая вверх-вниз.");
-    if (ms == MS_CAP_DRAG_LR_ZOOM) s = QObject::tr("Увеличивайте и уменьшайте, перетаскивая вправо-влево.");
+    if (ms == MS_CAP_CLICK_TO_ZOOMIN) s = QObject::tr("Увеличивайте, щелчком мыши. ");
+    if (ms == MS_CAP_CLICK_TO_ZOOMOUT) s = QObject::tr("Уменьшайте, щелчком мыши. ");
+    if (ms == MS_CAP_DRAG_UD_ZOOM) s = QObject::tr("Увеличивайте и уменьшайте, перетаскиванием вверх-вниз.");
+    if (ms == MS_CAP_DRAG_LR_ZOOM) s = QObject::tr("Увеличивайте и уменьшайте, перетаскиванием вправо-влево.");
 
     if (ms == MS_CAP_PARA_FOUR) s = QObject::tr("Определить точку схода за 4 клика");
     if (ms == MS_CAP_SNAP_CURVEMOVE) s = QObject::tr("Переместить вершину привязки с помощью Ctrl + перетащить");
     if (ms == MS_CAP_SNAP_ELLIPSE) s = QObject::tr("Создать привязку эллипса с помощью Ctrl + перетащить");
 
-    if (ms == MS_CAP_DIVIDE) s = QObject::tr("Для того чтобы разделить - перетяните, а затем установите произвольный угол, удерживая Shift");
-    if (ms == MS_CAP_MARK) s = QObject::tr("Определите базовую точку нажатием Ctrl+Click (Холст)");
+    if (ms == MS_CAP_DIVIDE) s = QObject::tr("Разделяйте горизонтально или вертикально, перетаскивая; под углом, удерживая Shift");
+    if (ms == MS_CAP_MARK) s = QObject::tr("Определяйте базовую точку щелчком мыши удерживая Ctrl (Холст)");
 
-    if (ms == MS_CAP_KEEPEDGE) s = QObject::tr("[Edge Pen] Рисовать без перекрытия зажав Ctrl");
+    if (ms == MS_CAP_KEEPEDGE) s = QObject::tr("[Edge Pen] Рисуйте без перекрытия удерживая Ctrl");
     if (ms == MS_CAP_KEEPEDGE_COND) s = QObject::tr("[Edge Pen] Непрозрачная кисть позволяющая рисовать по краю");
-    if (ms == MS_CAP_KEEP_SIDE) s = QObject::tr("Нажатие Ctrl + перетаскивание позволят сохранить длину");
+    if (ms == MS_CAP_KEEP_SIDE) s = QObject::tr("Удержание Ctrl + перетаскивание позволят сохранить длину");
 
-    if (ms == MS_CAP_SPOIT_CANVAS) s = QObject::tr("Получить цвет холста с +Shift");
-    if (ms == MS_CAP_SPOIT_ACTIVE) s = QObject::tr("Получить активный цвет слоя с +Shift");
+    if (ms == MS_CAP_SPOIT_CANVAS) s = QObject::tr("Получайте цвет холста, удерживая Shift");
+    if (ms == MS_CAP_SPOIT_ACTIVE) s = QObject::tr("Получайте цвет текущего слоя, удерживая Shift");
   }
 
   if (man->TranslateHindi())
