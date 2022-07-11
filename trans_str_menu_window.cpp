@@ -154,7 +154,7 @@ QString Trans_StrMenuWindow( int idx )
   {
     if (idx == 0) return QObject::tr("Окно(&W)");
     if (idx == 1) return QObject::tr("Инициализация(&I)...");
-    if (idx == 2) return QObject::tr("Показать/спрятать(&S)");
+    if (idx == 2) return QObject::tr("Показать/скрыть(&S)");
     if (idx == 3) return QObject::tr("Цвет");
     if (idx == 4) return QObject::tr("Предпросмотр кисти");
     if (idx == 5) return QObject::tr("Параметры кисти");

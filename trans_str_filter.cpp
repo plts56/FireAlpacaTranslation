@@ -371,7 +371,7 @@ QString Trans_StrFilter( int idx )
     if (idx == 1304) return QObject::tr("Плотность");
     if (idx == 1305) return QObject::tr("Плотность (разброс)");
     if (idx == 1306) return QObject::tr("Смещение (разброс)");
-    if (idx == 1307) return QObject::tr("Нарастание/Затухание");
+    if (idx == 1307) return QObject::tr("Затухание");
     if (idx == 1308) return QObject::tr("Сбросить");
     if (idx == 1309) return QObject::tr("Обновить разброс");
   }

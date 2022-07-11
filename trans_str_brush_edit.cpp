@@ -430,7 +430,7 @@ QString Trans_StrBrushEdit( int idx )
     if (idx == 29) return QObject::tr("Рассеивание акварели");
     if (idx == 30) return QObject::tr("Растушевка");
     if (idx == 31) return QObject::tr("Cкрипт кисти");
-    if (idx == 32) return QObject::tr("Принудительное затухание или усиление");
+    if (idx == 32) return QObject::tr("Затухание");
     if (idx == 33) return QObject::tr("Edge Pen");
     if (idx == 34) return QObject::tr("Ширина края");
     if (idx == 35) return QObject::tr("Узор");

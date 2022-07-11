@@ -189,7 +189,7 @@ QString Trans_StrBrushList( int idx )
     if (idx == 7) return QObject::tr("Ошибка сценария");
     if (idx == 8) return QObject::tr("Редактировать название группы...");
     if (idx == 9) return QObject::tr("Удалить группу");
-    if (idx == 10) return QObject::tr("Перо (принудительное затухание или усиление)");
+    if (idx == 10) return QObject::tr("Перо (затухание)");
     if (idx == 11) return QObject::tr("Сдвинуть выше"); // グループを上に移動
     if (idx == 12) return QObject::tr("Сдвинуть ниже"); // グループを下に移動
 
@@ -199,7 +199,7 @@ QString Trans_StrBrushList( int idx )
     if (idx == 18) return QObject::tr("Плоская кисть");
     if (idx == 19) return QObject::tr("Звезда");
     if (idx == 20) return QObject::tr("Стебель");
-    if (idx == 21) return QObject::tr("Стрела");
+    if (idx == 21) return QObject::tr("Стрелка");
     if (idx == 22) return QObject::tr("Raimon");
 
     if (idx == 30) return QObject::tr("FireAlpaca Brush Format (*.mdb)");
@@ -216,7 +216,7 @@ QString Trans_StrBrushList( int idx )
     if (idx == 101) return QObject::tr("Пушистый");
     if (idx == 102) return QObject::tr("Симметрия");
     if (idx == 103) return QObject::tr("Симметрия вращения");
-    if (idx == 104) return QObject::tr("Колючий");
+    if (idx == 104) return QObject::tr("Колючка");
     if (idx == 105) return QObject::tr("Kakeami");
     if (idx == 106) return QObject::tr("В горошек");
     if (idx == 107) return QObject::tr("Аналог(c)Hiroki Ugawa)");
