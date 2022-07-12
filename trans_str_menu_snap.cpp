@@ -140,8 +140,8 @@ QString Trans_StrMenuSnap( int idx )
     if (idx == 6) return QObject::tr("Круговая"); // Circle
     if (idx == 7) return QObject::tr("Кривая"); // Curve
     if (idx == 8) return QObject::tr("Сохранить привязку(&S)..."); // Save Snap
-    if (idx == 9) return QObject::tr("Отрисовать кривую");
-    if (idx == 10) return QObject::tr("Отрисовать кривую (затухание)");
+    if (idx == 9) return QObject::tr("Отрис. кривую");
+    if (idx == 10) return QObject::tr("Отрис. кривую (затухание)");
     if (idx == 12) return QObject::tr("3D Перспектива");
     if (idx == 13) return QObject::tr("Доб. 3D Перспективу");
   }
