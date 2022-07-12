@@ -154,16 +154,18 @@ QString Trans_StrMenuWindow( int idx )
   {
     if (idx == 0) return QObject::tr("Окно(&W)");
     if (idx == 1) return QObject::tr("Инициализация(&I)...");
-    if (idx == 2) return QObject::tr("Показать/спрятать(&S)");
+    if (idx == 2) return QObject::tr("Показать/скрыть(&S)");
     if (idx == 3) return QObject::tr("Цвет");
-    if (idx == 4) return QObject::tr("Предварительный просмотр кисти");
+    if (idx == 4) return QObject::tr("Предпросмотр кисти");
     if (idx == 5) return QObject::tr("Параметры кисти");
     if (idx == 6) return QObject::tr("Кисть");
-    if (idx == 7) return QObject::tr("Навигатор");
+    if (idx == 7) return QObject::tr("Навигация");
     if (idx == 8) return QObject::tr("Слой");
     if (idx == 9) return QObject::tr("Палитра");
     if (idx == 10) return QObject::tr("Панель статуса");
     if (idx == 11) return QObject::tr("Справка");
+    if (idx == 13) return QObject::tr("Размер кисти");
+    if (idx == 14) return QObject::tr("Новая вкладка для холста");
   }
 
   if (man->TranslateHindi())

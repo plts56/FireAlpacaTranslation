@@ -106,6 +106,12 @@ QString Trans_StrMenuColor( int idx )
     if (idx == 2) return QObject::tr("Инициализация(&I)");
     if (idx == 3) return QObject::tr("Цветовая шкала(&B)");
     if (idx == 4) return QObject::tr("Цветовая гамма(&W)");
+    if (idx == 5) return QObject::tr("Прозрачность(&A)");
+    if (idx == 6) return QObject::tr("&Заблокир. палитру");
+    if (idx == 7) return QObject::tr("Очистить все палитры в &Группе");
+    if (idx == 8) return QObject::tr("&Large Display of Palette");
+    if (idx == 9) return QObject::tr("Импорт Групп палитры...");
+    if (idx == 10) return QObject::tr("Экспорт Групп палитры...");
   }
 
   if (man->TranslateHindi())

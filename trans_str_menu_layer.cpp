@@ -367,9 +367,9 @@ QString Trans_StrMenuLayer( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Слой(&L)"); // Layer
+    if (idx == 0) return QObject::tr("Слои(&L)"); // Layer
     if (idx == 1) return QObject::tr("Добавить(&A)"); // Add
-    if (idx == 2) return QObject::tr("Дубликат(&C)"); // Duplicate
+    if (idx == 2) return QObject::tr("Дублировать(&C)"); // Duplicate
     if (idx == 3) return QObject::tr("Объединить слои(&M)"); // Merge Down
     if (idx == 4) return QObject::tr("Удалить(&D)"); // Delete
     if (idx == 5) return QObject::tr("Залить(&F)"); // Fill
@@ -379,29 +379,67 @@ QString Trans_StrMenuLayer( int idx )
     if (idx == 9) return QObject::tr("Отразить по горизонтали(&H)"); // Flip Horizontally
     if (idx == 10) return QObject::tr("Уровни(&L)..."); // Levels
     if (idx == 11) return QObject::tr("Тон(&H)..."); // Hue
-    if (idx == 12) return QObject::tr("Гауссово размывание(&G)..."); // Gaussian Blur
+    if (idx == 12) return QObject::tr("Размытие по Гауссу(&G)..."); // Gaussian Blur
     if (idx == 13) return QObject::tr("Мозаика(&S)..."); // Mosaic
     if (idx == 14) return QObject::tr("Указать градус поворота(&D)..."); // Designate Rotate Degree
-    if (idx == 15) return QObject::tr("Добавить / &8 bit"); // Add 8bit
-    if (idx == 16) return QObject::tr("Добавить / &1 bit"); // Add 1bit
+    if (idx == 15) return QObject::tr("Добавить / &8 бит"); // Add 8bit
+    if (idx == 16) return QObject::tr("Добавить / &1 бит"); // Add 1bit
     if (idx == 17) return QObject::tr("Преобразовать(&T)"); // Convert
     if (idx == 18) return QObject::tr("Преобразовать в цветной слой(&C)"); // Convert to Color Layer
     if (idx == 19) return QObject::tr("Преобразовать в 8-битный слой"); // Convert to 8 bit Layer
     if (idx == 20) return QObject::tr("Добавить папку"); // Add Folder
     if (idx == 21) return QObject::tr("Объединить папку"); // Merge Folder
-    if (idx == 22) return QObject::tr("Извлечение линии(&X)..."); // Extracting Lines
+    if (idx == 22) return QObject::tr("Извлечение цвета(&X)..."); // Extracting Lines
     if (idx == 23) return QObject::tr("Преобразовать в 1-битный слой"); // Convert to 1 bit Layer
     if (idx == 24) return QObject::tr("Материал");
-    if (idx == 25) return QObject::tr("Добавить материал на панель...");
-    if (idx == 26) return QObject::tr("Растрировать материал");
-    if (idx == 27) return QObject::tr("Собственность...");
+    if (idx == 25) return QObject::tr("Добавить Панель Материала...");
+    if (idx == 26) return QObject::tr("Растрировать Материал");
+    if (idx == 27) return QObject::tr("Свойства...");
     if (idx == 28) return QObject::tr("Разделить...");
     if (idx == 29) return QObject::tr("0 градусов");
     if (idx == 30) return QObject::tr("Объединить все..."); // Merge All
-    if (idx == 31) return QObject::tr("Собственность");
+    if (idx == 30) return QObject::tr("Объединить все..."); // Merge All
+    if (idx == 31) return QObject::tr("Свойства");
     if (idx == 32) return QObject::tr("Фильтр(&R)");
     if (idx == 33) return QObject::tr("Облако");
     if (idx == 34) return QObject::tr("Песок");
+    if (idx == 35) return QObject::tr("Двустороннее размытие");
+    if (idx == 36) return QObject::tr("Opacity Low Cut");
+    if (idx == 37) return QObject::tr("Opacity Uniformity");
+    if (idx == 38) return QObject::tr("Постеризация");
+    if (idx == 39) return QObject::tr("Change Transparent Color ");
+    if (idx == 40) return QObject::tr("Change Nontransparent Color");
+    if (idx == 41) return QObject::tr("Resverse Color");
+    if (idx == 42) return QObject::tr("Прозрачный градиент...");
+    if (idx == 43) return QObject::tr("Доб. / Полутон...");
+    if (idx == 44) return QObject::tr("Кривая тона...");
+    if (idx == 45) return QObject::tr("Баланс цвета...");
+    if (idx == 46) return QObject::tr("Операции с каналами...");
+    if (idx == 47) return QObject::tr("Доб. / маску (8 бит)");
+    if (idx == 48) return QObject::tr("Доб. / трафарет (8 бит)");
+    if (idx == 49) return QObject::tr("Хроматическая аберрация...");
+    if (idx == 50) return QObject::tr("&Слой маска");
+    if (idx == 51) return QObject::tr("&Слой трафарет");
+    if (idx == 52) return QObject::tr("Размытие в движении (&M)...");
+    if (idx == 53) return QObject::tr("Создать группу");
+    if (idx == 55) return QObject::tr("Линии (Концентрация)...");
+    if (idx == 56) return QObject::tr("Линии (Параллель)...");
+    if (idx == 57) return QObject::tr("Линии (Морской всплеск)...");
+    if (idx == 58) return QObject::tr("Контурная резкость...");
+    if (idx == 59) return QObject::tr("Размытие линзой...");
+    if (idx == 60) return QObject::tr("Японский паттерн...");
+    if (idx == 61) return QObject::tr("Карта градиента...");
+    if (idx == 62) return QObject::tr("Подвинуть");
+    if (idx == 63) return QObject::tr("Вверх влево");
+    if (idx == 64) return QObject::tr("Вверх по центру");
+    if (idx == 65) return QObject::tr("Вверх вправо");
+    if (idx == 66) return QObject::tr("Слева по центру");
+    if (idx == 67) return QObject::tr("По центру");
+    if (idx == 68) return QObject::tr("Справа по центру");
+    if (idx == 69) return QObject::tr("Вниз влево");
+    if (idx == 70) return QObject::tr("Вниз по центру");
+    if (idx == 71) return QObject::tr("Вниз вправо");
+    if (idx == 72) return QObject::tr("Clear Through");
   }
 
   if (man->TranslateHindi())

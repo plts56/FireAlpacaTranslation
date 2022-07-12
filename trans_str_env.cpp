@@ -269,14 +269,14 @@ QString Trans_StrEnv( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Направление колеса");
-    if (idx == 1) return QObject::tr("Инверсия");
+    if (idx == 0) return QObject::tr("Колесо прокрутки");
+    if (idx == 1) return QObject::tr("Инвертировать");
     if (idx == 2) return QObject::tr("Градус поворота");
-    if (idx == 3) return QObject::tr("градус");
-    if (idx == 4) return QObject::tr("Настройки среды");
+    if (idx == 3) return QObject::tr("град.");
+    if (idx == 4) return QObject::tr("Настройки рабочей среды");
     if (idx == 5) return QObject::tr("Качество JPEG");
-    if (idx == 6) return QObject::tr("Увеличить путем перетаскивания");
-    if (idx == 7) return QObject::tr("Увеличить на определенный %");
+    if (idx == 6) return QObject::tr("Масштабирование перетаскиванием");
+    if (idx == 7) return QObject::tr("На предустановленный %");
     if (idx == 8) return QObject::tr("Плавное масштабирование");
     if (idx == 9) return QObject::tr("Перетащить вверх и вниз");
     if (idx == 10) return QObject::tr("Перетащить влево и вправо");
@@ -284,15 +284,51 @@ QString Trans_StrEnv( int idx )
     if (idx == 16) return QObject::tr("Координаты кисти");
     if (idx == 17) return QObject::tr("Использовать координаты планшета (рекомендуется)");
     if (idx == 18) return QObject::tr("Использовать координаты мыши");
-    if (idx == 19) return QObject::tr("Активируйте настройку во время загрузки");
+    if (idx == 19) return QObject::tr("Активация настройки при загрузке");
     if (idx == 20) return QObject::tr("Правая кнопка");
     if (idx == 21) return QObject::tr("Ластик");
     if (idx == 22) return QObject::tr("Пипетка");
 
-    if (idx == 26) return QObject::tr("Всегда отображать панель вращения угла");
+    if (idx == 26) return QObject::tr("Всегда отображать панель угла вращения");
 
     if (idx == 39) return QObject::tr("Отобразить увеличение");
     if (idx == 40) return QObject::tr("Настроить вручную");
+    if (idx == 41) return QObject::tr("Указать путь к файлу");
+    if (idx == 42) return QObject::tr("Показывать полный путь");
+    if (idx == 43) return QObject::tr("Pen Tablet");
+    if (idx == 44) return QObject::tr("Включить если есть проблемы с HUION Tablet");
+    if (idx == 45) return QObject::tr("Настройки Wintab");
+    if (idx == 46) return QObject::tr("Начать рисовать при обнаружении давления ручки");
+
+    if (idx == 50) return QObject::tr("Автосохранение");
+    if (idx == 51) return QObject::tr("Разрешить функцию автосохранения");
+
+    if (idx == 52) return QObject::tr("Кнопки на холсте");
+    if (idx == 53) return QObject::tr("Показывать кнопку Alpaca");
+    if (idx == 54) return QObject::tr("Показывать кнопку pixiv");
+
+    if (idx == 60) return QObject::tr("Настройки среды кистей");
+    if (idx == 61) return QObject::tr("Чувствительность к давлению");
+    if (idx == 62) return QObject::tr("Жесткий");
+    if (idx == 63) return QObject::tr("Мягкий");
+
+    if (idx == 70) return QObject::tr("Выбор API нажима ручки");
+    if (idx == 71) return QObject::tr("Wintab + TabletPC");
+    if (idx == 72) return QObject::tr("Wintab");
+    if (idx == 73) return QObject::tr("TabletPC");
+
+    if (idx == 80) return QObject::tr("Multi-touch");
+    if (idx == 81) return QObject::tr("Разрешить операцию вращения холста");
+    if (idx == 82) return QObject::tr("Разрешить редактирование холста пальцем");
+
+    if (idx == 90) return QObject::tr("Отмена/Повтор");
+    if (idx == 91) return QObject::tr("Применять отображение операции для слоя");
+
+    if (idx == 100) return QObject::tr("Группа для слоя");
+    if (idx == 101) return QObject::tr("Доб. как Through Blend (cannot be clipped)");
+    if (idx == 102) return QObject::tr("Доб. как Normal Blend");
+
+    if (idx == 110) return QObject::tr("Шрифт списка слоев");
   }
 
   if (man->TranslateHindi())

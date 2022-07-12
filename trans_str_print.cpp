@@ -82,9 +82,9 @@ QString Trans_StrPrint( int idx )
   if (man->TranslateRussian())
   {
     if (idx == 0) return QObject::tr("Печать");
-    if (idx == 1) return QObject::tr("Печать по ширине бумаги");
-    if (idx == 2) return QObject::tr("Применить разрешение изображения");
-    if (idx == 3) return QObject::tr("Кратность");
+    if (idx == 1) return QObject::tr("Печатать по ширине бумаги");
+    if (idx == 2) return QObject::tr("Использовать разрешение изображения");
+    if (idx == 3) return QObject::tr("Масштаб");
   }
 
   if (man->TranslateHindi())

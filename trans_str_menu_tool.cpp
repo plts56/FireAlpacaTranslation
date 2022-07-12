@@ -197,7 +197,7 @@ QString Trans_StrMenuTool( int idx )
     if (idx == 5) return QObject::tr("Залить фигуру"); // Fill
     if (idx == 6) return QObject::tr("Ведро"); // Bucket
     if (idx == 7) return QObject::tr("Градиент"); // Gradient
-    if (idx == 8) return QObject::tr("Выделить"); // Select
+    if (idx == 8) return QObject::tr("Выделение"); // Select
     if (idx == 9) return QObject::tr("Волшебная палочка"); // Magicwand
     if (idx == 10) return QObject::tr("Выбрать перо"); // SelectPen
     if (idx == 11) return QObject::tr("Выбрать ластик"); // SelectEraser
@@ -206,6 +206,7 @@ QString Trans_StrMenuTool( int idx )
     if (idx == 14) return QObject::tr("Текст"); // Text
     if (idx == 15) return QObject::tr("Объект"); // Object
     if (idx == 16) return QObject::tr("Лассо"); // Lasso
+    if (idx == 17) return QObject::tr("Панель разделения");
   }
 
   if (man->TranslateHindi())

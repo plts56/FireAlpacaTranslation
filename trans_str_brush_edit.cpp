@@ -398,8 +398,8 @@ QString Trans_StrBrushEdit( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Имя");
-    if (idx == 1) return QObject::tr("Текст");
+    if (idx == 0) return QObject::tr("Название");
+    if (idx == 1) return QObject::tr("Тип");
     if (idx == 2) return QObject::tr("Перо");
     if (idx == 3) return QObject::tr("Аэрограф");
     if (idx == 4) return QObject::tr("Ластик");
@@ -429,8 +429,8 @@ QString Trans_StrBrushEdit( int idx )
     if (idx == 28) return QObject::tr("Колебание цветового тона");
     if (idx == 29) return QObject::tr("Рассеивание акварели");
     if (idx == 30) return QObject::tr("Растушевка");
-    if (idx == 31) return QObject::tr("Браш скрипт");
-    if (idx == 32) return QObject::tr("Принудительное затухание или усиление");
+    if (idx == 31) return QObject::tr("Cкрипт кисти");
+    if (idx == 32) return QObject::tr("Затухание");
     if (idx == 33) return QObject::tr("Edge Pen");
     if (idx == 34) return QObject::tr("Ширина края");
     if (idx == 35) return QObject::tr("Узор");
@@ -438,6 +438,32 @@ QString Trans_StrBrushEdit( int idx )
     //if (idx == 37) return QObject::tr("Произвольное смещение");
     if (idx == 38) return QObject::tr("Фиксация направления перемещения");
     if (idx == 39) return QObject::tr("Направление перемещения");
+    if (idx == 40) return QObject::tr("Rotate Along");
+    if (idx == 41) return QObject::tr("Rotate Angle");
+    if (idx == 42) return QObject::tr("Rotate Random");
+    if (idx == 43) return QObject::tr("Roller (Ribbon)");
+    if (idx == 44) return QObject::tr("Draw Once");
+    if (idx == 45) return QObject::tr("Повторение");
+    if (idx == 46) return QObject::tr("Random Order");
+    if (idx == 47) return QObject::tr("Оттенок");
+    if (idx == 48) return QObject::tr("Смешение");
+    if (idx == 49) return QObject::tr("Параметр");
+    if (idx == 50) return QObject::tr("Настройка давления");
+    if (idx == 51) return QObject::tr("Здесь вариантов нет");
+    if (idx == 52) return QObject::tr("Наложение");
+    if (idx == 53) return QObject::tr("Softness");
+    if (idx == 54) return QObject::tr("Rotate Random 2");
+    if (idx == 55) return QObject::tr("Rotation of Drawing Unit");
+    if (idx == 56) return QObject::tr("Rotation in Stroke Units");
+    if (idx == 57) return QObject::tr("При наличии нескольких материалов они будут отрисованы случайным образом");
+    if (idx == 58) return QObject::tr("Если материалов несколько, он будет отрисован повторением первого материала");
+    if (idx == 60) return QObject::tr("Текстура");
+    if (idx == 61) return QObject::tr("Текстура кисти");
+    if (idx == 62) return QObject::tr("Текстура наложения");
+    if (idx == 63) return QObject::tr("Текстура эффекта");
+    if (idx == 64) return QObject::tr("Умножение");
+    if (idx == 65) return QObject::tr("Вычитание");
+    if (idx == 66) return QObject::tr("Scatter Mix");
   }
 
   if (man->TranslateHindi())

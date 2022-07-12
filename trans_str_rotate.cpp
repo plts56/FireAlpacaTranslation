@@ -75,7 +75,7 @@ QString Trans_StrRotate( int idx )
   {
     if (idx == 0) return QObject::tr("Указать градус поворота");
     if (idx == 1) return QObject::tr("Угол");
-    if (idx == 2) return QObject::tr("Градус");
+    if (idx == 2) return QObject::tr("Град.");
   }
 
   if (man->TranslateHindi())

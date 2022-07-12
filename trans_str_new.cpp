@@ -329,7 +329,7 @@ QString Trans_StrNew( int idx )
     if (idx == 4) return QObject::tr("Цветовой  слой");
     if (idx == 5) return QObject::tr("8-битный слой");
     if (idx == 6) return QObject::tr("Размер бумаги");
-
+    if (idx == 7) return QObject::tr("LINE Stickers");
     if (idx == 8) return QObject::tr("Открытка (Япония)");
     if (idx == 9) return QObject::tr("Инвертировать ширину и высоту");
     if (idx == 10) return QObject::tr("Стандартный");
@@ -352,6 +352,27 @@ QString Trans_StrNew( int idx )
     if (idx == 27) return QObject::tr("Разворот");
     if (idx == 28) return QObject::tr("Ширина кадра");
     if (idx == 29) return QObject::tr("Белый");
+    if (idx == 30) return QObject::tr("Spine Width");
+    if (idx == 31) return QObject::tr("Twitter - размер изображения");
+    if (idx == 32) return QObject::tr("Twitter - размер заголовка");
+    if (idx == 33) return QObject::tr("Twitter - иконка");
+    if (idx == 40) return QObject::tr("Удалить историю");
+    if (idx == 41) return QObject::tr("Storie (Characters)");
+    if (idx == 42) return QObject::tr("Storie (Backgrounds)");
+    if (idx == 43) return QObject::tr("Storie (Clipart)");
+    if (idx == 44) return QObject::tr("Yonkoma");
+    if (idx == 45) return QObject::tr("Yonkoma (Title)");
+
+    if (idx == 54) return QObject::tr("RGB профиль");
+    if (idx == 55) return QObject::tr("CMYK профиль");
+    if (idx == 56) return QObject::tr("Выбор RGB профиля");
+    if (idx == 57) return QObject::tr("Выбор CMYK профиля");
+
+    if (idx == 60) return QObject::tr("Анимация");
+    if (idx == 61) return QObject::tr("Создать папку для кадров");
+    if (idx == 62) return QObject::tr("Количество кадров");
+    if (idx == 63) return QObject::tr("Кадр");
+    if (idx == 64) return QObject::tr("Частота кадра");
   }
 
   if (man->TranslateHindi())

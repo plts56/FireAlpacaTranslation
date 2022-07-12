@@ -103,10 +103,22 @@ QString Trans_StrChild( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Сохранить данные перед закрытем?");
+    if (idx == 0) return QObject::tr("Сохранить данные перед закрытием?");
     if (idx == 2) return QObject::tr("Сохранить изображение");
     if (idx == 3) return QObject::tr("Не удалось сохранить");
-    if (idx == 4) return QObject::tr("Слои не могут быть сохранены с этим форматом. Хотите продолжить?");
+    if (idx == 4) return QObject::tr("Слои не могут быть сохранены в этом формате. Хотите продолжить?");
+    if (idx == 5) return QObject::tr("Ошибка памяти (нехватка памяти).\nВозможно изображение слишком большое.");
+    if (idx == 6) return QObject::tr("Сохранение в этом формате объединит слои этого изображения. Содержимое чернового слоя не будет отображаться. Хотите продолжить? ");
+    if (idx == 7) return QObject::tr("Применить трансформацию?");
+    if (idx == 8) return QObject::tr("Экспорт изображения (CMYK format PSD)");
+    if (idx == 9) return QObject::tr("Пожалуйста активируйте\"CMYK Soft Proof\" в меню \"Вид\" и выполните CMYK предпросмотр");
+    if (idx == 10) return QObject::tr("Удалить обрезанную область?");
+    if (idx == 11) return QObject::tr("Данные слоя отсутствуют");
+    if (idx == 12) return QObject::tr("Импорт изображения как нового слоя");
+    if (idx == 13) return QObject::tr("Текстовый слой будет растеризован, все верно?\n\n(Чтобы сохранить текстовый слой для последующего редактирования, пожалуйста используйте MDP формат)");
+    if (idx == 14) return QObject::tr("Применить ли к скрытым слоям?");
+    if (idx == 15) return QObject::tr("Экспорт изображения (APNG)");
+    if (idx == 16) return QObject::tr("Экспорт изображения (Animated GIF)");
   }
 
   if (man->TranslateHindi())

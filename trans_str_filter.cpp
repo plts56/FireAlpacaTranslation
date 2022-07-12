@@ -271,21 +271,109 @@ QString Trans_StrFilter( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Вводные");
-    if (idx == 1) return QObject::tr("Выводные");
+    if (idx == 0) return QObject::tr("Ввод");
+    if (idx == 1) return QObject::tr("Вывод");
     if (idx == 2) return QObject::tr("Уровни");
-    if (idx == 3) return QObject::tr("Извлекаемые линии");
+    if (idx == 3) return QObject::tr("Извлечение цвета");
 
     if (idx == 100) return QObject::tr("Тон");
     if (idx == 101) return QObject::tr("Насыщенность");
     if (idx == 102) return QObject::tr("Яркость");
-    if (idx == 103) return QObject::tr("Тон Насыщенность Яркость");
+    if (idx == 103) return QObject::tr("Тон, насыщенность, яркость");
+    if (idx == 200) return QObject::tr("Кривая тона");
+    if (idx == 201) return QObject::tr("Сброс");
 
-    if (idx == 600) return QObject::tr("Гауссово размытие");
+    if (idx == 300) return QObject::tr("Операции с каналами");
+    if (idx == 301) return QObject::tr("RGB Среднее");
+    if (idx == 302) return QObject::tr("255 - (RGB Среднее)");
+    if (idx == 303) return QObject::tr("Сброс");
+
+    if (idx == 400) return QObject::tr("Хроматическая аберрация");
+
+    if (idx == 500) return QObject::tr("Контурная резкость");
+    if (idx == 501) return QObject::tr("Радиус");
+    if (idx == 502) return QObject::tr("Эффект");
+    if (idx == 503) return QObject::tr("Предпросмотр");
+
+
+    if (idx == 600) return QObject::tr("Размытие по Гауссу");
     if (idx == 601) return QObject::tr("Значение");
+    if (idx == 602) return QObject::tr("Предпросмотр");
+
+    if (idx == 700) return QObject::tr("Размытие в движении");
+    if (idx == 701) return QObject::tr("Интенсивность");
+    if (idx == 702) return QObject::tr("Предпросмотр");
+
+    if (idx == 800) return QObject::tr("Размытие объектива");
+    if (idx == 801) return QObject::tr("Радиус");
+    if (idx == 802) return QObject::tr("Предпросмотр");
+    if (idx == 803) return QObject::tr("Яркость");
 
     if (idx == 900) return QObject::tr("Мозаика");
     if (idx == 901) return QObject::tr("Размер");
+
+    if (idx == 1000) return QObject::tr("Sea (Seigaiha)");
+    if (idx == 1001) return QObject::tr("Sea (Hishi Seigaiha)");
+    if (idx == 1002) return QObject::tr("Sippou");
+    if (idx == 1003) return QObject::tr("Sippou 2");
+    if (idx == 1004) return QObject::tr("Sanki Kuzushi");
+    if (idx == 1005) return QObject::tr("Arrow (Yagasuri)");
+    if (idx == 1006) return QObject::tr("Arrow 2 (Yagasuri)");
+    if (idx == 1007) return QObject::tr("Scale (Uroko)");
+    if (idx == 1008) return QObject::tr("Hound's Tooth");
+    if (idx == 1009) return QObject::tr("Polka Dot");
+    if (idx == 1010) return QObject::tr("Suri Bitta");
+    if (idx == 1011) return QObject::tr("Turtle (Kikkou)");
+    if (idx == 1012) return QObject::tr("Checker Board");
+    if (idx == 1013) return QObject::tr("Asanoha");
+    if (idx == 1014) return QObject::tr("Tatewaku");
+    if (idx == 1015) return QObject::tr("Hundou Tsunagi");
+    if (idx == 1016) return QObject::tr("Sayagata");
+    if (idx == 1017) return QObject::tr("Higaki");
+    if (idx == 1050) return QObject::tr("Японский паттерн");
+    if (idx == 1051) return QObject::tr("Имя");
+    if (idx == 1052) return QObject::tr("Размер");
+    if (idx == 1053) return QObject::tr("Прозрачный фон");
+    if (idx == 1054) return QObject::tr("Изменение цвета");
+    if (idx == 1055) return QObject::tr("Случайный цвет");
+    if (idx == 1056) return QObject::tr("Плотность");
+    if (idx == 1057) return QObject::tr("Угол");
+    if (idx == 1058) return QObject::tr("град.");
+
+    if (idx == 1100) return QObject::tr("Концентрированные линии");
+    if (idx == 1101) return QObject::tr("Длина");
+    if (idx == 1102) return QObject::tr("Длина (разброс)");
+    if (idx == 1103) return QObject::tr("Ширина линии");
+    if (idx == 1104) return QObject::tr("Плотность");
+    if (idx == 1105) return QObject::tr("Плотность(разброс)");
+    if (idx == 1106) return QObject::tr("Пропорции");
+    if (idx == 1107) return QObject::tr("Квадрат");
+    if (idx == 1108) return QObject::tr("Пейзаж");
+    if (idx == 1109) return QObject::tr("Портрет");
+    if (idx == 1110) return QObject::tr("Сбросить");
+    if (idx == 1111) return QObject::tr("Обновить разброс");
+    if (idx == 1112) return QObject::tr("Указать центр");
+
+    if (idx == 1200) return QObject::tr("Параллельные линии");
+    if (idx == 1201) return QObject::tr("Длина");
+    if (idx == 1202) return QObject::tr("Длина(разброс)");
+    if (idx == 1203) return QObject::tr("Ширина линии");
+    if (idx == 1204) return QObject::tr("Плотность");
+    if (idx == 1205) return QObject::tr("Плотность(разброс)");
+    if (idx == 1206) return QObject::tr("Сбросить");
+    if (idx == 1207) return QObject::tr("Обновить разброс");
+    if (idx == 1208) return QObject::tr("Указать направление");
+
+    if (idx == 1300) return QObject::tr("Морской всплеск");
+    if (idx == 1301) return QObject::tr("Длина");
+    if (idx == 1302) return QObject::tr("Длина (разброс)");
+    if (idx == 1303) return QObject::tr("Ширина линии");
+    if (idx == 1304) return QObject::tr("Плотность");
+    if (idx == 1305) return QObject::tr("Плотность (разброс)");
+    if (idx == 1306) return QObject::tr("Смещение (разброс)");
+    if (idx == 1307) return QObject::tr("Затухание");
+    if (idx == 1308) return QObject::tr("Сбросить");
+    if (idx == 1309) return QObject::tr("Обновить разброс");
   }
 
   if (man->TranslateHindi())

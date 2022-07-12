@@ -57,6 +57,8 @@ QString Trans_StrBrushFolder( int idx )
 
   if (man->TranslateRussian())
   {
+  if (idx == 0) return QObject::tr("Группа кистей");
+  if (idx == 1) return QObject::tr("Имя");
   }
 
   if (man->TranslateHindi())

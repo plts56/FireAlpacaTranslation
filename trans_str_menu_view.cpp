@@ -181,7 +181,7 @@ QString Trans_StrMenuView( int idx )
     if (idx == 0) return QObject::tr("Вид(&V)"); // View
     if (idx == 1) return QObject::tr("Увеличить(&I)"); // Zoom In
     if (idx == 2) return QObject::tr("Уменьшить(&O)"); // Zoom Out
-    if (idx == 3) return QObject::tr("Подогнать к размеру окна(&F)"); // Fit to Window Size
+    if (idx == 3) return QObject::tr("По размеру окна(&F)"); // Fit to Window Size
     if (idx == 4) return QObject::tr("Повернуть влево(&L)"); // Rotate Left
     if (idx == 5) return QObject::tr("Отменить поворот/отражение(&S)"); // Release Rotate/Flip
     if (idx == 6) return QObject::tr("Повернуть вправо(&R)"); // Rotate Right
@@ -193,6 +193,15 @@ QString Trans_StrMenuView( int idx )
     if (idx == 12) return QObject::tr("Цвет фона(&D)..."); // Background Color
     if (idx == 13) return QObject::tr("Показать разметочные линии комикса(&M)"); // Show Comic Guide Lines
     if (idx == 14) return QObject::tr("Настройки направляющих линий комикса(&S)..."); // Comic Guide Lines Settings
+    if (idx == 21) return QObject::tr("Отобразить с применением цветового профиля");
+    if (idx == 22) return QObject::tr("CMYK Soft Proof");
+    if (idx == 23) return QObject::tr("Настройки управления цветом...");
+    if (idx == 24) return QObject::tr("Направляющие");
+    if (idx == 25) return QObject::tr("Показать направляющие линии Манга(&M)");
+    if (idx == 26) return QObject::tr("Настройка направляющих линий Манга(&S)...");
+    if (idx == 27) return QObject::tr("Настройка сетки...");
+    if (idx == 28) return QObject::tr("100%");
+    if (idx == 29) return QObject::tr("200%");
   }
 
   if (man->TranslateHindi())

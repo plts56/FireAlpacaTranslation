@@ -124,15 +124,17 @@ QString Trans_StrBrushBottom( int idx )
   if (man->TranslateRussian())
   {
     if (idx == 0) return QObject::tr("Добавить кисть");
-    if (idx == 1) return QObject::tr("Дубликат кисти");
+    if (idx == 1) return QObject::tr("Дублировать кисть");
     if (idx == 2) return QObject::tr("Удалить кисть");
     if (idx == 3) return QObject::tr("Удалить эту кисть?");
-    if (idx == 4) return QObject::tr("Добавить кисть (Битовая карта)");
-    if (idx == 5) return QObject::tr("Добавить кисть (Сценарий)");
-    if (idx == 6) return QObject::tr("Добавление файла будет отменено из-за высоконагруженного файла сценария. ");
+    if (idx == 4) return QObject::tr("Добавить кисть (Растр)");
+    if (idx == 5) return QObject::tr("Добавить кисть (Скрипт)");
+    if (idx == 6) return QObject::tr("Добавление файла будет отменено из-за перегруженности файла сценария. ");
     if (idx == 7) return QObject::tr("Добавить группу кистей");
     if (idx == 8) return QObject::tr("Из холста");
     if (idx == 9) return QObject::tr("Из файла");
+    if (idx == 20) return QObject::tr("Доб. пресет кисти");
+    if (idx == 21) return QObject::tr("Открыть Магазин кистей");
   }
 
   if (man->TranslateHindi())

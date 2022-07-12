@@ -101,12 +101,13 @@ QString Trans_StrPng( int idx )
 
   if (man->TranslateRussian())
   {
-    if (idx == 0) return QObject::tr("Сохранить настройки");
+    if (idx == 0) return QObject::tr("Сохранение");
     if (idx == 1) return QObject::tr("Прозрачный PNG");
-    if (idx == 2) return QObject::tr("24-bit PNG");
-    if (idx == 3) return QObject::tr("Qualité");
+    if (idx == 2) return QObject::tr("24-бит PNG");
+    if (idx == 3) return QObject::tr("Качество");
     if (idx == 4) return QObject::tr("Сохранение в формате JPEG приведет к потери качества.");
-    if (idx == 5) return QObject::tr("Если вы хотите сохранить файл в высоком качестве, предлагаем использовать PNG формат.");
+    if (idx == 5) return QObject::tr("Если вы хотите сохранить файл в высоком качестве, предлагаем использовать формат PNG.");
+    if (idx == 14) return QObject::tr("PNG (оттенки серого)");
   }
 
   if (man->TranslateHindi())
